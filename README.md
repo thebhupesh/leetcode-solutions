@@ -77,6 +77,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Binary Search
 |  |
 | ------- |
+| [0278-first-bad-version](https://github.com/thebhupesh/leetcode-solutions/tree/master/0278-first-bad-version) |
 | [0704-binary-search](https://github.com/thebhupesh/leetcode-solutions/tree/master/0704-binary-search) |
 ## Matrix
 |  |
@@ -108,4 +109,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0973-k-closest-points-to-origin](https://github.com/thebhupesh/leetcode-solutions/tree/master/0973-k-closest-points-to-origin) |
+## Interactive
+|  |
+| ------- |
+| [0278-first-bad-version](https://github.com/thebhupesh/leetcode-solutions/tree/master/0278-first-bad-version) |
 <!---LeetCode Topics End-->

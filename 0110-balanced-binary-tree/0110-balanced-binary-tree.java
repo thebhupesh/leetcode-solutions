@@ -14,21 +14,59 @@
  * }
  */
 class Solution {
-    private int depth(TreeNode root) {
-        if(root == null) {
-            return 0;
-        }
-
-        int left = depth(root.left);
-        int right = depth(root.right);
-
-        if(left == -1 || right == -1 || Math.abs(left-right) > 1) {
-            return -1;
-        }
-
-        return Math.max(left,right)+1;
-    }
     public boolean isBalanced(TreeNode root) {
-        return depth(root) != -1;
+        if (root == null) {
+
+            return true;
+
+        }
+
+        Stack<Object[]> stack = new Stack<>();
+
+        Map<TreeNode, Integer> height = new HashMap<>();
+
+        stack.push(new Object[] { root, false });
+
+        while (!stack.isEmpty()) {
+
+            Object[] curr = stack.pop();
+
+            TreeNode node = (TreeNode) curr[0];
+
+            boolean visited = (boolean) curr[1];
+
+            if (node == null) {
+
+                continue;
+
+            }
+
+            if (!visited) {
+
+                stack.push(new Object[] { node, true });
+
+                stack.push(new Object[] { node.right, false });
+
+                stack.push(new Object[] { node.left, false });
+
+            } else {
+
+                int left = height.getOrDefault(node.left, 0);
+
+                int right = height.getOrDefault(node.right, 0);
+
+                if (Math.abs(left - right) > 1) {
+
+                    return false;
+
+                }
+
+                height.put(node, Math.max(left, right) + 1);
+
+            }
+
+        }
+
+        return true;
     }
 }

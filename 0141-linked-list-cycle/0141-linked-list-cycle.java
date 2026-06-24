@@ -11,13 +11,24 @@
  */
 public class Solution {
     public boolean hasCycle(ListNode head) {
-        while(head != null) {
-            if(head.val == Integer.MAX_VALUE) {
+        if(head == null) {
+            return false;
+        }
+        
+        ListNode ptr1 = head;
+        ListNode ptr2 = head.next;
+
+        while(ptr1 != null && ptr2 != null) {
+            if(ptr1 == ptr2) {
                 return true;
             }
 
-            head.val = Integer.MAX_VALUE;
-            head = head.next;
+            ptr1 = ptr1.next;
+            if(ptr2.next != null) {
+                ptr2 = ptr2.next.next;
+            } else {
+                break;
+            }
         }
 
         return false;

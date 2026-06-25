@@ -1,12 +1,10 @@
 class MyQueue {
     Stack<Integer> main;
     Stack<Integer> helper;
-    int size;
 
     public MyQueue() {
         main = new Stack<>();
         helper = new Stack<>();
-        size = 0;
     }
     
     public void push(int x) {
@@ -19,12 +17,9 @@ class MyQueue {
         while(!helper.isEmpty()) {
             main.push(helper.pop());
         }
-
-        size++;
     }
     
     public int pop() {
-        size--;
         return main.pop();
     }
     
@@ -33,7 +28,7 @@ class MyQueue {
     }
     
     public boolean empty() {
-        return size == 0;
+        return main.isEmpty();
     }
 }
 

@@ -6,11 +6,11 @@ class Solution {
         int startIdx = 0;
 
         for(char ch : s.toCharArray()) {
-            if(mp.containsKey(ch)) {
-                int val = mp.get(ch);
+            int val = mp.getOrDefault(ch,-1);
 
-                mp.put(ch, startIdx+currLength);
+            mp.put(ch, startIdx+currLength);
 
+            if(val != -1) {
                 if(val < startIdx) {
                     currLength++;
                 } else {
@@ -18,7 +18,6 @@ class Solution {
                     startIdx = val+1;
                 }
             } else {
-                mp.put(ch, startIdx+currLength);
                 currLength++;
             }
 

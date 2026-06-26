@@ -14,16 +14,15 @@ class Solution {
                 if(val < startIdx) {
                     currLength++;
                 } else {
+                    maxLength = Math.max(maxLength, currLength);
                     currLength -= (val-startIdx);
                     startIdx = val+1;
                 }
             } else {
                 currLength++;
             }
-
-            maxLength = Math.max(maxLength, currLength);
         }
 
-        return maxLength;
+        return Math.max(maxLength,currLength);
     }
 }

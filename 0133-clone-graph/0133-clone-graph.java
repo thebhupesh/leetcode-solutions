@@ -23,43 +23,26 @@ class Solution {
         if(node == null) {
             return node;
         }
+
         Queue<Node> q = new LinkedList<>();
-        Set<Integer> visited = new HashSet<>();
-        Map<Integer,Node> nodes = new HashMap<>();
+        Map<Node,Node> nodes = new HashMap<>();
 
         q.offer(node);
-        visited.add(node.val);
+        nodes.put(node,new Node(node.val));
 
         while(!q.isEmpty()) {
             Node curr = q.poll();
 
-            nodes.put(curr.val,new Node(curr.val));
-
             for(Node n : curr.neighbors) {
-                if(!visited.contains(n.val)) {
+                if(nodes.get(n) == null) {
                     q.offer(n);
-                    visited.add(n.val);
+                    nodes.put(n,new Node(n.val));
                 }
+
+                nodes.get(curr).neighbors.add(nodes.get(n));
             }
         }
 
-        q.offer(node);
-        visited.clear();
-        visited.add(node.val);
-
-        while(!q.isEmpty()) {
-            Node curr = q.poll();
-            Node newNode = nodes.get(curr.val);
-
-            for(Node n : curr.neighbors) {
-                newNode.neighbors.add(nodes.get(n.val));
-                if(!visited.contains(n.val)) {
-                    q.offer(n);
-                    visited.add(n.val);
-                }
-            }
-        }
-
-        return nodes.get(node.val);
+        return nodes.get(node);
     }
 }

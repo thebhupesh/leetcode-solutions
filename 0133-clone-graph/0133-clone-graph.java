@@ -24,18 +24,18 @@ class Solution {
             return node;
         }
 
-        Queue<Node> q = new LinkedList<>();
+        Deque<Node> q = new ArrayDeque<>();
         Map<Node,Node> nodes = new HashMap<>();
 
-        q.offer(node);
+        q.addLast(node);
         nodes.put(node,new Node(node.val));
 
         while(!q.isEmpty()) {
-            Node curr = q.poll();
+            Node curr = q.pollFirst();
 
             for(Node n : curr.neighbors) {
                 if(nodes.get(n) == null) {
-                    q.offer(n);
+                    q.addLast(n);
                     nodes.put(n,new Node(n.val));
                 }
 

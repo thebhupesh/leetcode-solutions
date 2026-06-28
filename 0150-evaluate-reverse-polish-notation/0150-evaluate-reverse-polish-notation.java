@@ -3,9 +3,7 @@ class Solution {
         Stack<Integer> s = new Stack<>();
 
         for(String tkn : tokens) {
-            try {
-                s.push(Integer.parseInt(tkn));
-            } catch(NumberFormatException e) {
+            if (tkn.equals("+") || tkn.equals("-") || tkn.equals("*") || tkn.equals("/")) {
                 int op1 = s.pop();
                 int op2 = s.pop();
 
@@ -13,7 +11,11 @@ class Solution {
                 else if(tkn.equals("-")) s.push(op2-op1);
                 else if(tkn.equals("/")) s.push(op2/op1);
                 else if(tkn.equals("*")) s.push(op2*op1);
+
+                continue;
             }
+            
+            s.push(Integer.parseInt(tkn));
         }
 
         return s.pop();

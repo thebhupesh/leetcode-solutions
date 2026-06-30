@@ -1,6 +1,6 @@
 class Solution {
     Map<Long,Integer> dp = new HashMap<>();
-    private int findChange(List<Integer> coins, int amt, long curr) {
+    private int findChange(int[] coins, int amt, long curr) {
         if(curr == amt) {
             return 0;
         } else if(curr > amt) {
@@ -13,8 +13,8 @@ class Solution {
 
         int val = Integer.MAX_VALUE;
 
-        for(int i=coins.size()-1; i>=0; i--) {
-            int temp = findChange(coins, amt, curr+coins.get(i));
+        for(int i=coins.length-1; i>=0; i--) {
+            int temp = findChange(coins, amt, curr+coins[i]);
 
             if(temp != -1) {
                 val = Math.min(temp+1,val);
@@ -28,14 +28,6 @@ class Solution {
     }
 
     public int coinChange(int[] coins, int amount) {
-        List<Integer> vals = new ArrayList<>();
-
-        for(int coin : coins) {
-            vals.add(coin);
-        }
-
-        Collections.sort(vals);
-
-        return findChange(vals, amount, 0);
+        return findChange(coins, amount, 0);
     }
 }

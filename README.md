@@ -12,6 +12,7 @@ A collection of LeetCode questions.
 | [0057-insert-interval](https://github.com/thebhupesh/leetcode-solutions/tree/master/0057-insert-interval) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/thebhupesh/leetcode-solutions/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/thebhupesh/leetcode-solutions/tree/master/0150-evaluate-reverse-polish-notation) |
+| [0238-product-of-array-except-self](https://github.com/thebhupesh/leetcode-solutions/tree/master/0238-product-of-array-except-self) |
 | [0322-coin-change](https://github.com/thebhupesh/leetcode-solutions/tree/master/0322-coin-change) |
 | [0542-01-matrix](https://github.com/thebhupesh/leetcode-solutions/tree/master/0542-01-matrix) |
 | [0704-binary-search](https://github.com/thebhupesh/leetcode-solutions/tree/master/0704-binary-search) |
@@ -175,4 +176,8 @@ A collection of LeetCode questions.
 |  |
 | ------- |
 | [0208-implement-trie-prefix-tree](https://github.com/thebhupesh/leetcode-solutions/tree/master/0208-implement-trie-prefix-tree) |
+## Prefix Sum
+|  |
+| ------- |
+| [0238-product-of-array-except-self](https://github.com/thebhupesh/leetcode-solutions/tree/master/0238-product-of-array-except-self) |
 <!---LeetCode Topics End-->

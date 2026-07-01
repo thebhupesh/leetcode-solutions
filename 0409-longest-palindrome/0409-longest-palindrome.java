@@ -5,7 +5,7 @@ class Solution {
         int odds = 0;
 
         for(char ch : s.toCharArray()) {
-            int temp = (mp.containsKey(ch)) ? mp.get(ch) : 0;
+            int temp = mp.getOrDefault(ch,0);
             
             if(temp%2 == 0) {
                 odds++;

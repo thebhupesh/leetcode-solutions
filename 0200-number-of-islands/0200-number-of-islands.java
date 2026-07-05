@@ -1,31 +1,47 @@
 class Solution {
+    int m,n;
+    
+    private char[][] check(char[][] grid, int i, int j) {
+        Stack<int[]> s = new Stack<>();
+        s.push(new int[]{i,j});
+        grid[i][j] = 'L';
+
+        while(!s.isEmpty()) {
+            int[] curr = s.pop();
+
+            if(curr[0]>0 && grid[curr[0]-1][curr[1]] == '1') {
+                s.push(new int[]{curr[0]-1,curr[1]});
+                grid[curr[0]-1][curr[1]] = 'L';
+            }
+            if(curr[1]>0 && grid[curr[0]][curr[1]-1] == '1') {
+                s.push(new int[]{curr[0],curr[1]-1});
+                grid[curr[0]][curr[1]-1] = 'L';
+            }
+            if(curr[0]+1<m && grid[curr[0]+1][curr[1]] == '1') {
+                s.push(new int[]{curr[0]+1,curr[1]});
+                grid[curr[0]+1][curr[1]] = 'L';
+            }
+            if(curr[1]+1<n && grid[curr[0]][curr[1]+1] == '1') {
+                s.push(new int[]{curr[0],curr[1]+1});
+                grid[curr[0]][curr[1]+1] = 'L';
+            }
+        }
+
+        return grid;
+    }
     public int numIslands(char[][] grid) {
-        int m = grid.length, n = grid[0].length;
-        Set<Pair<Integer,Integer>> lands = new HashSet<>();
-        Stack<Pair<Integer,Integer>> s = new Stack<>();
+        m = grid.length;
+        n = grid[0].length;
+        Set<int[]> lands = new HashSet<>();
         int result = 0;
 
         for(int i=0; i<m; i++) {
             for(int j=0; j<n; j++) {
                 if(grid[i][j] == '1') {
-                    lands.add(new Pair<>(i,j));
+                    grid = check(grid,i,j);
+                    result++;
                 }
             }
-        }
-
-        while(!lands.isEmpty()) {
-            s.push(lands.iterator().next());
-            while(!s.isEmpty()) {
-                Pair<Integer,Integer> curr = s.pop();
-                lands.remove(curr);
-                int i = curr.getKey(), j = curr.getValue();
-
-                if(i>0 && lands.contains(new Pair<>(i-1,j))) s.push(new Pair<>(i-1,j));
-                if(j>0 && lands.contains(new Pair<>(i,j-1))) s.push(new Pair<>(i,j-1));
-                if(i+1<m && lands.contains(new Pair<>(i+1,j))) s.push(new Pair<>(i+1,j));
-                if(j+1<n && lands.contains(new Pair<>(i,j+1))) s.push(new Pair<>(i,j+1));
-            }
-            result++;
         }
 
         return result;

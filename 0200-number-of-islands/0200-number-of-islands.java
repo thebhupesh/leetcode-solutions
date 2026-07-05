@@ -1,7 +1,7 @@
 class Solution {
     int m,n;
     
-    private char[][] check(char[][] grid, int i, int j) {
+    private void check(char[][] grid, int i, int j) {
         Stack<int[]> s = new Stack<>();
         s.push(new int[]{i,j});
         grid[i][j] = 'L';
@@ -26,19 +26,16 @@ class Solution {
                 grid[curr[0]][curr[1]+1] = 'L';
             }
         }
-
-        return grid;
     }
     public int numIslands(char[][] grid) {
         m = grid.length;
         n = grid[0].length;
-        Set<int[]> lands = new HashSet<>();
         int result = 0;
 
         for(int i=0; i<m; i++) {
             for(int j=0; j<n; j++) {
                 if(grid[i][j] == '1') {
-                    grid = check(grid,i,j);
+                    check(grid,i,j);
                     result++;
                 }
             }

@@ -22,10 +22,10 @@ class Solution {
                 int i = curr.getKey(), j = curr.getValue();
                 visited[i][j] = true;
 
-                if(i>0 && grid[i-1][j] == '1' && !visited[i-1][j]) s.push(new Pair<>(i-1,j));
-                if(j>0 && grid[i][j-1] == '1' && !visited[i][j-1]) s.push(new Pair<>(i,j-1));
-                if(i+1<m && grid[i+1][j] == '1' && !visited[i+1][j]) s.push(new Pair<>(i+1,j));
-                if(j+1<n && grid[i][j+1] == '1' && !visited[i][j+1]) s.push(new Pair<>(i,j+1));
+                if(i>0 && lands.contains(new Pair<>(i-1,j))) s.push(new Pair<>(i-1,j));
+                if(j>0 && lands.contains(new Pair<>(i,j-1))) s.push(new Pair<>(i,j-1));
+                if(i+1<m && lands.contains(new Pair<>(i+1,j))) s.push(new Pair<>(i+1,j));
+                if(j+1<n && lands.contains(new Pair<>(i,j+1))) s.push(new Pair<>(i,j+1));
             }
             result++;
         }

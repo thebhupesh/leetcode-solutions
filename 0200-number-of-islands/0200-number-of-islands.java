@@ -3,7 +3,6 @@ class Solution {
         int m = grid.length, n = grid[0].length;
         Set<Pair<Integer,Integer>> lands = new HashSet<>();
         Stack<Pair<Integer,Integer>> s = new Stack<>();
-        boolean[][] visited = new boolean[m][n];
         int result = 0;
 
         for(int i=0; i<m; i++) {
@@ -20,7 +19,6 @@ class Solution {
                 Pair<Integer,Integer> curr = s.pop();
                 lands.remove(curr);
                 int i = curr.getKey(), j = curr.getValue();
-                visited[i][j] = true;
 
                 if(i>0 && lands.contains(new Pair<>(i-1,j))) s.push(new Pair<>(i-1,j));
                 if(j>0 && lands.contains(new Pair<>(i,j-1))) s.push(new Pair<>(i,j-1));

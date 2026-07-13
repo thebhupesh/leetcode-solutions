@@ -12,6 +12,7 @@ A collection of LeetCode questions.
 | [0057-insert-interval](https://github.com/thebhupesh/leetcode-solutions/tree/master/0057-insert-interval) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/thebhupesh/leetcode-solutions/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/thebhupesh/leetcode-solutions/tree/master/0150-evaluate-reverse-polish-notation) |
+| [0169-majority-element](https://github.com/thebhupesh/leetcode-solutions/tree/master/0169-majority-element) |
 | [0200-number-of-islands](https://github.com/thebhupesh/leetcode-solutions/tree/master/0200-number-of-islands) |
 | [0238-product-of-array-except-self](https://github.com/thebhupesh/leetcode-solutions/tree/master/0238-product-of-array-except-self) |
 | [0322-coin-change](https://github.com/thebhupesh/leetcode-solutions/tree/master/0322-coin-change) |
@@ -26,6 +27,7 @@ A collection of LeetCode questions.
 | [0003-longest-substring-without-repeating-characters](https://github.com/thebhupesh/leetcode-solutions/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0133-clone-graph](https://github.com/thebhupesh/leetcode-solutions/tree/master/0133-clone-graph) |
 | [0141-linked-list-cycle](https://github.com/thebhupesh/leetcode-solutions/tree/master/0141-linked-list-cycle) |
+| [0169-majority-element](https://github.com/thebhupesh/leetcode-solutions/tree/master/0169-majority-element) |
 | [0208-implement-trie-prefix-tree](https://github.com/thebhupesh/leetcode-solutions/tree/master/0208-implement-trie-prefix-tree) |
 | [0242-valid-anagram](https://github.com/thebhupesh/leetcode-solutions/tree/master/0242-valid-anagram) |
 | [0383-ransom-note](https://github.com/thebhupesh/leetcode-solutions/tree/master/0383-ransom-note) |
@@ -114,6 +116,7 @@ A collection of LeetCode questions.
 |  |
 | ------- |
 | [0015-3sum](https://github.com/thebhupesh/leetcode-solutions/tree/master/0015-3sum) |
+| [0169-majority-element](https://github.com/thebhupesh/leetcode-solutions/tree/master/0169-majority-element) |
 | [0242-valid-anagram](https://github.com/thebhupesh/leetcode-solutions/tree/master/0242-valid-anagram) |
 | [0973-k-closest-points-to-origin](https://github.com/thebhupesh/leetcode-solutions/tree/master/0973-k-closest-points-to-origin) |
 ## Binary Search
@@ -131,6 +134,7 @@ A collection of LeetCode questions.
 |  |
 | ------- |
 | [0053-maximum-subarray](https://github.com/thebhupesh/leetcode-solutions/tree/master/0053-maximum-subarray) |
+| [0169-majority-element](https://github.com/thebhupesh/leetcode-solutions/tree/master/0169-majority-element) |
 | [0973-k-closest-points-to-origin](https://github.com/thebhupesh/leetcode-solutions/tree/master/0973-k-closest-points-to-origin) |
 ## Binary Search Tree
 |  |
@@ -162,6 +166,7 @@ A collection of LeetCode questions.
 ## Counting
 |  |
 | ------- |
+| [0169-majority-element](https://github.com/thebhupesh/leetcode-solutions/tree/master/0169-majority-element) |
 | [0383-ransom-note](https://github.com/thebhupesh/leetcode-solutions/tree/master/0383-ransom-note) |
 ## Design
 |  |

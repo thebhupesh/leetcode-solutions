@@ -6,7 +6,7 @@ class Solution {
             curr.add(list[i]);
             
             if(temp+list[i] <= target) findCombinations(list, i, temp, target, res, curr);
-            else if(val+list[i] == target) {
+            else if(temp == target) {
                 res.add(new ArrayList<>(curr));
                 rtrn = true;
             } else if(temp > target) rtrn = true;

@@ -2,8 +2,6 @@ class Solution {
     public int[][] merge(int[][] intervals) {
         Arrays.sort(intervals, (a,b) -> (a[0] != b[0]) ? Integer.compare(a[0],b[0]) : Integer.compare(a[1],b[1]));
 
-        // for(int[] interval : intervals) System.out.println(interval[0]+","+interval[1]);
-
         List<int[]> res = new ArrayList<>();
         int[] curr = intervals[0];
 

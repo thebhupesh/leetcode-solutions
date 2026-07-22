@@ -4,7 +4,7 @@ class Solution {
         Map<Character, Integer> t_freq = new HashMap<>();
 
         for(char c : t.toCharArray()) {
-            t_char.put(c, new LinkedList<>());
+            t_char.putIfAbsent(c, new LinkedList<>());
             t_freq.put(c, t_freq.getOrDefault(c,0)+1);
         }
 

@@ -44,6 +44,7 @@ A collection of LeetCode questions.
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/thebhupesh/leetcode-solutions/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0020-valid-parentheses](https://github.com/thebhupesh/leetcode-solutions/tree/master/0020-valid-parentheses) |
+| [0067-add-binary](https://github.com/thebhupesh/leetcode-solutions/tree/master/0067-add-binary) |
 | [0076-minimum-window-substring](https://github.com/thebhupesh/leetcode-solutions/tree/master/0076-minimum-window-substring) |
 | [0125-valid-palindrome](https://github.com/thebhupesh/leetcode-solutions/tree/master/0125-valid-palindrome) |
 | [0208-implement-trie-prefix-tree](https://github.com/thebhupesh/leetcode-solutions/tree/master/0208-implement-trie-prefix-tree) |
@@ -161,6 +162,7 @@ A collection of LeetCode questions.
 ## Math
 |  |
 | ------- |
+| [0067-add-binary](https://github.com/thebhupesh/leetcode-solutions/tree/master/0067-add-binary) |
 | [0070-climbing-stairs](https://github.com/thebhupesh/leetcode-solutions/tree/master/0070-climbing-stairs) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/thebhupesh/leetcode-solutions/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0973-k-closest-points-to-origin](https://github.com/thebhupesh/leetcode-solutions/tree/master/0973-k-closest-points-to-origin) |
@@ -235,4 +237,12 @@ A collection of LeetCode questions.
 | ------- |
 | [0039-combination-sum](https://github.com/thebhupesh/leetcode-solutions/tree/master/0039-combination-sum) |
 | [0046-permutations](https://github.com/thebhupesh/leetcode-solutions/tree/master/0046-permutations) |
+## Bit Manipulation
+|  |
+| ------- |
+| [0067-add-binary](https://github.com/thebhupesh/leetcode-solutions/tree/master/0067-add-binary) |
+## Simulation
+|  |
+| ------- |
+| [0067-add-binary](https://github.com/thebhupesh/leetcode-solutions/tree/master/0067-add-binary) |
 <!---LeetCode Topics End-->

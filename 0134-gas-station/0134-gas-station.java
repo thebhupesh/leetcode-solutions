@@ -1,34 +1,21 @@
 class Solution {
-    private int travel(int start, int[] gas, int[] cost, int currGas, int idx, Map<List<Integer>,Integer> dp) {
-        idx = idx%gas.length;
-        
-        if(dp.containsKey(List.of(idx,currGas))) return dp.get(List.of(idx,currGas));
-        if(idx == start) return idx;
-
-        currGas += gas[idx]-cost[idx];
-        if(currGas < 0) {
-            dp.put(List.of(idx,currGas), idx);
-        } else {
-            dp.put(List.of(idx,currGas), travel(start,gas,cost,currGas,idx+1,dp));
-        }
-
-        return dp.get(List.of(idx,currGas));
-    }
-
     public int canCompleteCircuit(int[] gas, int[] cost) {
-        int len = gas.length;
+        int start = 0;
+        int currGas = 0;
+        int totalGas = 0;
 
-        for(int i=0; i<len; i++) {
-            Map<List<Integer>,Integer> dp = new HashMap<>();
-            if(gas[i] >= cost[i]) {
-                int val = travel(i,gas,cost,gas[i]-cost[i],i+1,dp);
+        for(int i=0; i<gas.length; i++) {
+            int diffGas = gas[i]-cost[i];
 
-                if(val == i) return i;
-                else if(val > i) i=val;
-                else break;
+            currGas += diffGas;
+            totalGas += diffGas;
+
+            if(currGas < 0) {
+                start = i+1;
+                currGas = 0;
             }
         }
 
-        return -1;
+        return (totalGas >= 0) ? start : -1;
     }
 }

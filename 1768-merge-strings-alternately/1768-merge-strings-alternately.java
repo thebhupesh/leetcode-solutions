@@ -13,6 +13,8 @@ class Solution {
             if(ptr2<len2) str.append(word2.charAt(ptr2++));
         }
 
+        System.gc();
+
         return str.toString();
     }
 }

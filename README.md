@@ -29,6 +29,7 @@ A collection of LeetCode questions.
 | [0733-flood-fill](https://github.com/thebhupesh/leetcode-solutions/tree/master/0733-flood-fill) |
 | [0973-k-closest-points-to-origin](https://github.com/thebhupesh/leetcode-solutions/tree/master/0973-k-closest-points-to-origin) |
 | [0994-rotting-oranges](https://github.com/thebhupesh/leetcode-solutions/tree/master/0994-rotting-oranges) |
+| [2239-find-closest-number-to-zero](https://github.com/thebhupesh/leetcode-solutions/tree/master/2239-find-closest-number-to-zero) |
 ## Hash Table
 |  |
 | ------- |

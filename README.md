@@ -23,6 +23,7 @@ A collection of LeetCode questions.
 | [0169-majority-element](https://github.com/thebhupesh/leetcode-solutions/tree/master/0169-majority-element) |
 | [0200-number-of-islands](https://github.com/thebhupesh/leetcode-solutions/tree/master/0200-number-of-islands) |
 | [0217-contains-duplicate](https://github.com/thebhupesh/leetcode-solutions/tree/master/0217-contains-duplicate) |
+| [0228-summary-ranges](https://github.com/thebhupesh/leetcode-solutions/tree/master/0228-summary-ranges) |
 | [0238-product-of-array-except-self](https://github.com/thebhupesh/leetcode-solutions/tree/master/0238-product-of-array-except-self) |
 | [0322-coin-change](https://github.com/thebhupesh/leetcode-solutions/tree/master/0322-coin-change) |
 | [0542-01-matrix](https://github.com/thebhupesh/leetcode-solutions/tree/master/0542-01-matrix) |

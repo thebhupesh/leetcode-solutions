@@ -4,10 +4,9 @@ class Solution {
 
         for(char curr : s.toCharArray()) {
             if(curr == '(' || curr == '{' || curr == '[') stack.push(curr);
-            else if(stack.isEmpty()) return false;
-            else if(curr == ')' && stack.pop() != '(') return false;
-            else if(curr == '}' && stack.pop() != '{') return false;
-            else if(curr == ']' && stack.pop() != '[') return false;
+            else if(curr == ')' && (stack.isEmpty() || stack.pop() != '(')) return false;
+            else if(curr == '}' && (stack.isEmpty() || stack.pop() != '{')) return false;
+            else if(curr == ']' && (stack.isEmpty() || stack.pop() != '[')) return false;
         }
 
         return stack.isEmpty();

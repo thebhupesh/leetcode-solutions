@@ -58,6 +58,7 @@ A collection of LeetCode questions.
 | [0208-implement-trie-prefix-tree](https://github.com/thebhupesh/leetcode-solutions/tree/master/0208-implement-trie-prefix-tree) |
 | [0242-valid-anagram](https://github.com/thebhupesh/leetcode-solutions/tree/master/0242-valid-anagram) |
 | [0383-ransom-note](https://github.com/thebhupesh/leetcode-solutions/tree/master/0383-ransom-note) |
+| [0392-is-subsequence](https://github.com/thebhupesh/leetcode-solutions/tree/master/0392-is-subsequence) |
 | [0409-longest-palindrome](https://github.com/thebhupesh/leetcode-solutions/tree/master/0409-longest-palindrome) |
 | [0981-time-based-key-value-store](https://github.com/thebhupesh/leetcode-solutions/tree/master/0981-time-based-key-value-store) |
 | [1768-merge-strings-alternately](https://github.com/thebhupesh/leetcode-solutions/tree/master/1768-merge-strings-alternately) |
@@ -87,6 +88,7 @@ A collection of LeetCode questions.
 | [0070-climbing-stairs](https://github.com/thebhupesh/leetcode-solutions/tree/master/0070-climbing-stairs) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/thebhupesh/leetcode-solutions/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0322-coin-change](https://github.com/thebhupesh/leetcode-solutions/tree/master/0322-coin-change) |
+| [0392-is-subsequence](https://github.com/thebhupesh/leetcode-solutions/tree/master/0392-is-subsequence) |
 | [0542-01-matrix](https://github.com/thebhupesh/leetcode-solutions/tree/master/0542-01-matrix) |
 ## Two Pointers
 |  |
@@ -96,6 +98,7 @@ A collection of LeetCode questions.
 | [0075-sort-colors](https://github.com/thebhupesh/leetcode-solutions/tree/master/0075-sort-colors) |
 | [0125-valid-palindrome](https://github.com/thebhupesh/leetcode-solutions/tree/master/0125-valid-palindrome) |
 | [0141-linked-list-cycle](https://github.com/thebhupesh/leetcode-solutions/tree/master/0141-linked-list-cycle) |
+| [0392-is-subsequence](https://github.com/thebhupesh/leetcode-solutions/tree/master/0392-is-subsequence) |
 | [0876-middle-of-the-linked-list](https://github.com/thebhupesh/leetcode-solutions/tree/master/0876-middle-of-the-linked-list) |
 | [1768-merge-strings-alternately](https://github.com/thebhupesh/leetcode-solutions/tree/master/1768-merge-strings-alternately) |
 ## Tree

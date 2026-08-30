@@ -7,7 +7,7 @@ class Solution {
         int last = nums[0];
 
         for(int i=1; i<nums.length; i++) {
-            if(nums[i] > last+1) {
+            if((long)nums[i]-last > 1) {
                 if(start == last) res.add(start+"");
                 else res.add(start+"->"+last);
 

@@ -4,9 +4,8 @@ class Solution {
         int profit = 0;
 
         for(int sell=1; sell<prices.length; sell++) {
-            profit = Math.max(prices[sell]-prices[buy],profit);
-
             if(prices[sell]<prices[buy]) buy = sell;
+            else profit = Math.max(prices[sell]-prices[buy],profit);
         }
 
         return profit;

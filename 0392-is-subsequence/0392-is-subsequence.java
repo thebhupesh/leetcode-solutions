@@ -25,9 +25,7 @@ class Solution {
         return -1;
     }
 
-    public boolean isSubsequence(String s, String t) {
-        preprocess(t);
-
+    private boolean process(String s) {
         int last = -1;
         for(int i=0; i<s.length(); i++) {
             if(mp.containsKey(s.charAt(i))) {
@@ -37,5 +35,10 @@ class Solution {
         }
 
         return true;
+    }
+
+    public boolean isSubsequence(String s, String t) {
+        preprocess(t);
+        return process(s);
     }
 }

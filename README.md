@@ -272,4 +272,8 @@ A collection of LeetCode questions.
 |  |
 | ------- |
 | [0075-sort-colors](https://github.com/thebhupesh/leetcode-solutions/tree/master/0075-sort-colors) |
+## Bracket Sequences
+|  |
+| ------- |
+| [0020-valid-parentheses](https://github.com/thebhupesh/leetcode-solutions/tree/master/0020-valid-parentheses) |
 <!---LeetCode Topics End-->

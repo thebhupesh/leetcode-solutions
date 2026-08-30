@@ -13,45 +13,28 @@ enum Roman {
 }
 
 class Solution {
+    private int last;
+    private int res;
+
+    private void evaluate(int curr) {
+        if(last >= curr) res += curr;
+        else res += curr-(2*last);
+                
+        last = curr;
+    }
+
     public int romanToInt(String s) {
-        int last = Roman.M.value();
-        int res = 0;
+        last = Roman.M.value();
+        res = 0;
 
         for(char curr : s.toCharArray()) {
-            if(curr == 'M') {
-                if(last == Roman.M.value()) res += Roman.M.value();
-                else res += Roman.M.value()-(2*last);
-                
-                last = Roman.M.value();
-            } else if(curr == 'D') {
-                if(last >= Roman.D.value()) res += Roman.D.value();
-                else res += Roman.D.value()-(2*last);
-                
-                last = Roman.D.value();
-            } else if(curr == 'C') {
-                if(last >= Roman.C.value()) res += Roman.C.value();
-                else res += Roman.C.value()-(2*last);
-                
-                last = Roman.C.value();
-            } else if(curr == 'L') {
-                if(last >= Roman.L.value()) res += Roman.L.value();
-                else res += Roman.L.value()-(2*last);
-                
-                last = Roman.L.value();
-            } else if(curr == 'X') {
-                if(last >= Roman.X.value()) res += Roman.X.value();
-                else res += Roman.X.value()-(2*last);
-                
-                last = Roman.X.value();
-            } else if(curr == 'V') {
-                if(last >= Roman.V.value()) res += Roman.V.value();
-                else res += Roman.V.value()-(2*last);
-                
-                last = Roman.L.value();
-            }  else if(curr == 'I') {
-                res += Roman.I.value();
-                last = Roman.I.value();
-            }
+            if(curr == 'M') evaluate(Roman.M.value());
+            else if(curr == 'D') evaluate(Roman.D.value());
+            else if(curr == 'C') evaluate(Roman.C.value());
+            else if(curr == 'L') evaluate(Roman.L.value());
+            else if(curr == 'X') evaluate(Roman.X.value());
+            else if(curr == 'V') evaluate(Roman.V.value());
+            else if(curr == 'I') evaluate(Roman.I.value());
         }
 
         return res;

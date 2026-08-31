@@ -277,6 +277,7 @@ A collection of LeetCode questions.
 ## Quicksort
 |  |
 | ------- |
+| [0056-merge-intervals](https://github.com/thebhupesh/leetcode-solutions/tree/master/0056-merge-intervals) |
 | [0075-sort-colors](https://github.com/thebhupesh/leetcode-solutions/tree/master/0075-sort-colors) |
 ## Bubble Sort
 |  |

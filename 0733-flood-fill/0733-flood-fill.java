@@ -1,33 +1,15 @@
 class Solution {
     public int[][] floodFill(int[][] image, int sr, int sc, int color) {
-        int clr = image[sr][sc];
-        if(clr == color) {
-            return image;
-        }
+        if(image[sr][sc] == color) return image;
 
-        int m = image.length;
-        int n = image[0].length;
+        int curr = image[sr][sc];
 
-        Queue<int[]> q = new LinkedList<>();
+        image[sr][sc] = color;
 
-        q.add(new int[]{sr,sc});
-
-        while(!q.isEmpty()) {
-            int[] temp = q.poll();
-            sr = temp[0];
-            sc = temp[1];
-
-            if(sr<0 || sr>=m || sc<0 || sc>=n || image[sr][sc] != clr) {
-                continue;
-            }
-
-            image[sr][sc] = color;
-            
-            q.add(new int[]{sr-1,sc});
-            q.add(new int[]{sr,sc-1});
-            q.add(new int[]{sr+1,sc});
-            q.add(new int[]{sr,sc+1});
-        }
+        if(sr>0 && image[sr-1][sc] == curr) image = floodFill(image, sr-1, sc, color);
+        if(sr<image.length-1 && image[sr+1][sc] == curr) image = floodFill(image, sr+1, sc, color);
+        if(sc>0 && image[sr][sc-1] == curr) image = floodFill(image, sr, sc-1, color);
+        if(sc<image[0].length-1 && image[sr][sc+1] == curr) image = floodFill(image, sr, sc+1, color);
 
         return image;
     }

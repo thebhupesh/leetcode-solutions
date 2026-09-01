@@ -5,32 +5,47 @@ class Solution {
 
         List<Integer> res = new ArrayList<>();
 
-        boolean[][] visited = new boolean[m][n];
         int count = m*n;
         int i = 0;
         int j = 0;
+        
         char dir = 'R';
+        int R_limit = n-1;
+        int L_limit = 0;
+        int U_limit = 1;
+        int D_limit = m-1;
 
         while(count != 0) {
             while(true) {
                 res.add(matrix[i][j]);
-                visited[i][j] = true;
                 count--;
 
                 if(dir == 'R') {
-                    if(j == n-1 || visited[i][j+1]) break;
+                    if(j == R_limit) {
+                        R_limit--;
+                        break;
+                    }
                     j++;
                 }
                 else if(dir == 'D') {
-                    if(i == m-1 || visited[i+1][j]) break;
+                    if(i == D_limit) {
+                        D_limit--;   
+                        break;
+                    }
                     i++;
                 }
                 else if(dir == 'L') {
-                    if(j == 0 || visited[i][j-1]) break;
+                    if(j == L_limit) {
+                        L_limit++;
+                        break;
+                    }
                     j--;
                 }
                 else if(dir == 'U') {
-                    if(i == 0 || visited[i-1][j]) break;
+                    if(i == U_limit) {
+                        U_limit++;
+                        break;
+                    }
                     i--;
                 }
             }

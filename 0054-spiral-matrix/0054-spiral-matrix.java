@@ -22,6 +22,8 @@ class Solution {
 
                 if(dir == 'R') {
                     if(j == R_limit) {
+                        i++;
+                        dir = 'D';
                         R_limit--;
                         break;
                     }
@@ -29,6 +31,8 @@ class Solution {
                 }
                 else if(dir == 'D') {
                     if(i == D_limit) {
+                        j--;
+                        dir = 'L';
                         D_limit--;   
                         break;
                     }
@@ -36,6 +40,8 @@ class Solution {
                 }
                 else if(dir == 'L') {
                     if(j == L_limit) {
+                        i--;
+                        dir = 'U';
                         L_limit++;
                         break;
                     }
@@ -43,28 +49,13 @@ class Solution {
                 }
                 else if(dir == 'U') {
                     if(i == U_limit) {
+                        j++;
+                        dir = 'R';
                         U_limit++;
                         break;
                     }
                     i--;
                 }
-            }
-
-            if(dir == 'R') {
-                i++;
-                dir = 'D';
-            }
-            else if(dir == 'D') {
-                j--;
-                dir = 'L';
-            }
-            else if(dir == 'L') {
-                i--;
-                dir = 'U';
-            }
-            else if(dir == 'U') {
-                j++;
-                dir = 'R';
             }
         }
 

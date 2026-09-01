@@ -13,6 +13,7 @@ A collection of LeetCode questions.
 | [0033-search-in-rotated-sorted-array](https://github.com/thebhupesh/leetcode-solutions/tree/master/0033-search-in-rotated-sorted-array) |
 | [0039-combination-sum](https://github.com/thebhupesh/leetcode-solutions/tree/master/0039-combination-sum) |
 | [0046-permutations](https://github.com/thebhupesh/leetcode-solutions/tree/master/0046-permutations) |
+| [0048-rotate-image](https://github.com/thebhupesh/leetcode-solutions/tree/master/0048-rotate-image) |
 | [0053-maximum-subarray](https://github.com/thebhupesh/leetcode-solutions/tree/master/0053-maximum-subarray) |
 | [0054-spiral-matrix](https://github.com/thebhupesh/leetcode-solutions/tree/master/0054-spiral-matrix) |
 | [0056-merge-intervals](https://github.com/thebhupesh/leetcode-solutions/tree/master/0056-merge-intervals) |
@@ -170,6 +171,7 @@ A collection of LeetCode questions.
 ## Matrix
 |  |
 | ------- |
+| [0048-rotate-image](https://github.com/thebhupesh/leetcode-solutions/tree/master/0048-rotate-image) |
 | [0054-spiral-matrix](https://github.com/thebhupesh/leetcode-solutions/tree/master/0054-spiral-matrix) |
 | [0200-number-of-islands](https://github.com/thebhupesh/leetcode-solutions/tree/master/0200-number-of-islands) |
 | [0542-01-matrix](https://github.com/thebhupesh/leetcode-solutions/tree/master/0542-01-matrix) |
@@ -190,6 +192,7 @@ A collection of LeetCode questions.
 |  |
 | ------- |
 | [0013-roman-to-integer](https://github.com/thebhupesh/leetcode-solutions/tree/master/0013-roman-to-integer) |
+| [0048-rotate-image](https://github.com/thebhupesh/leetcode-solutions/tree/master/0048-rotate-image) |
 | [0067-add-binary](https://github.com/thebhupesh/leetcode-solutions/tree/master/0067-add-binary) |
 | [0070-climbing-stairs](https://github.com/thebhupesh/leetcode-solutions/tree/master/0070-climbing-stairs) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/thebhupesh/leetcode-solutions/tree/master/0150-evaluate-reverse-polish-notation) |

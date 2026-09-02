@@ -295,4 +295,12 @@ A collection of LeetCode questions.
 |  |
 | ------- |
 | [0020-valid-parentheses](https://github.com/thebhupesh/leetcode-solutions/tree/master/0020-valid-parentheses) |
+## Binary Lifting
+|  |
+| ------- |
+| [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/thebhupesh/leetcode-solutions/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
+## Lowest Common Ancestor
+|  |
+| ------- |
+| [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/thebhupesh/leetcode-solutions/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 <!---LeetCode Topics End-->

@@ -1,18 +1,23 @@
 class Solution {
+    public long distance(int[] point) {
+        return point[0]*point[0]+point[1]*point[1];
+    }
+
     public int[][] kClosest(int[][] points, int k) {
-        Comparator<int[]> c = (a, b) -> (a[0]*a[0]+a[1]*a[1])-(b[0]*b[0]+b[1]*b[1]);
-        PriorityQueue<int[]> q = new PriorityQueue<>(points.length, c);
+        Queue<int[]> closePoints = new PriorityQueue<>(k,(curr,top)->(int)(distance(top) - distance(curr)));
 
         for(int[] point : points) {
-            q.add(point);
+            if(closePoints.size() < k) {
+                closePoints.add(point);
+                continue;
+            }
+
+            if(distance(closePoints.peek()) < distance(point)) continue;
+            
+            closePoints.poll();
+            closePoints.add(point);
         }
 
-        int[][] res = new int[k][2];
-
-        while(k>0) {
-            res[--k] = q.poll();
-        }
-
-        return res;
+        return closePoints.toArray(new int[k][2]);
     }
 }

@@ -51,6 +51,7 @@ A collection of LeetCode questions.
 | [0409-longest-palindrome](https://github.com/thebhupesh/leetcode-solutions/tree/master/0409-longest-palindrome) |
 | [0771-jewels-and-stones](https://github.com/thebhupesh/leetcode-solutions/tree/master/0771-jewels-and-stones) |
 | [0981-time-based-key-value-store](https://github.com/thebhupesh/leetcode-solutions/tree/master/0981-time-based-key-value-store) |
+| [1189-maximum-number-of-balloons](https://github.com/thebhupesh/leetcode-solutions/tree/master/1189-maximum-number-of-balloons) |
 ## String
 |  |
 | ------- |
@@ -68,6 +69,7 @@ A collection of LeetCode questions.
 | [0409-longest-palindrome](https://github.com/thebhupesh/leetcode-solutions/tree/master/0409-longest-palindrome) |
 | [0771-jewels-and-stones](https://github.com/thebhupesh/leetcode-solutions/tree/master/0771-jewels-and-stones) |
 | [0981-time-based-key-value-store](https://github.com/thebhupesh/leetcode-solutions/tree/master/0981-time-based-key-value-store) |
+| [1189-maximum-number-of-balloons](https://github.com/thebhupesh/leetcode-solutions/tree/master/1189-maximum-number-of-balloons) |
 | [1768-merge-strings-alternately](https://github.com/thebhupesh/leetcode-solutions/tree/master/1768-merge-strings-alternately) |
 ## Stack
 |  |
@@ -220,6 +222,7 @@ A collection of LeetCode questions.
 | ------- |
 | [0169-majority-element](https://github.com/thebhupesh/leetcode-solutions/tree/master/0169-majority-element) |
 | [0383-ransom-note](https://github.com/thebhupesh/leetcode-solutions/tree/master/0383-ransom-note) |
+| [1189-maximum-number-of-balloons](https://github.com/thebhupesh/leetcode-solutions/tree/master/1189-maximum-number-of-balloons) |
 ## Design
 |  |
 | ------- |

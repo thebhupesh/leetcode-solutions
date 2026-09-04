@@ -15,10 +15,10 @@
  */
 class Solution {
     private int findDepth(TreeNode root) {
-        if(root == null || (root.left == null && root.right == null)) return 1;
+        if(root == null) return 0;
 
-        int left = (root.left == null) ? 0 : findDepth(root.left);
-        int right = (root.right == null) ? 0 : findDepth(root.right);
+        int left = findDepth(root.left);
+        int right = findDepth(root.right);
 
         if(left == -1 || right == -1 || Math.abs(left-right) > 1) return -1;
         else return Math.max(left+1,right+1);

@@ -5,7 +5,7 @@ class Solution {
 
         int min = Integer.MAX_VALUE;
         int max = Integer.MIN_VALUE;
-        int idx = 100;
+        int idx = n;
 
         for(int i=0; i<n; i++) {
             min = Math.min(min,nums[n-1-i]);
@@ -20,6 +20,6 @@ class Solution {
             }
         }
 
-        return (idx != 100) ? idx : -1;
+        return (idx != n) ? idx : -1;
     }
 }

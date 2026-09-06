@@ -1,6 +1,6 @@
 class Solution {
-    private String toString(List<Integer> nums) {
-        return nums.get(0)+","+nums.get(1)+","+nums.get(2);
+    private String toString(int a, int b) {
+        return a+","+b;
     }
 
     public List<List<Integer>> threeSum(int[] nums) {
@@ -26,20 +26,20 @@ class Solution {
             if(nums[i] >= 0) break;
             
             for(int j=nums.length-1; j>i; j--) {
-                
+                if(nums[j] <= 0) break;
+
                 int val = (-1)*(nums[i]+nums[j]);
-                int n = 1;
+                int dups = 1;
+                
+                if(val > nums[j] || val < nums[i]) continue;
 
-                if(val == nums[i]) n++;
-                if(val == nums[j]) n++;
+                if(val == nums[i] || val == nums[j]) dups = 2;
 
-                if(s.getOrDefault(val,0) >= n) {
-                    List<Integer> curr = new ArrayList<>(List.of(nums[i],val,nums[j]));
-                    Collections.sort(curr);
-                    String str = toString(curr);
+                if(s.getOrDefault(val,0) >= dups) {
+                    String str = toString(nums[i],nums[j]);
                     
                     if(!visited.contains(str)) {
-                        res.add(curr);
+                        res.add(List.of(nums[i],val,nums[j]));
                         visited.add(str);
                     }
                 }

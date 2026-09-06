@@ -13,8 +13,6 @@ class Solution {
                 start = pos+1;
             }
             m.put(s.charAt(i),i);
-
-            System.out.println(s.charAt(i)+":"+len+":"+start);
         }
 
         return Math.max(len,s.length()-start);

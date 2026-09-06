@@ -72,6 +72,7 @@ A collection of LeetCode questions.
 | [0049-group-anagrams](https://github.com/thebhupesh/leetcode-solutions/tree/master/0049-group-anagrams) |
 | [0067-add-binary](https://github.com/thebhupesh/leetcode-solutions/tree/master/0067-add-binary) |
 | [0076-minimum-window-substring](https://github.com/thebhupesh/leetcode-solutions/tree/master/0076-minimum-window-substring) |
+| [0115-distinct-subsequences](https://github.com/thebhupesh/leetcode-solutions/tree/master/0115-distinct-subsequences) |
 | [0125-valid-palindrome](https://github.com/thebhupesh/leetcode-solutions/tree/master/0125-valid-palindrome) |
 | [0208-implement-trie-prefix-tree](https://github.com/thebhupesh/leetcode-solutions/tree/master/0208-implement-trie-prefix-tree) |
 | [0242-valid-anagram](https://github.com/thebhupesh/leetcode-solutions/tree/master/0242-valid-anagram) |
@@ -106,6 +107,7 @@ A collection of LeetCode questions.
 | ------- |
 | [0053-maximum-subarray](https://github.com/thebhupesh/leetcode-solutions/tree/master/0053-maximum-subarray) |
 | [0070-climbing-stairs](https://github.com/thebhupesh/leetcode-solutions/tree/master/0070-climbing-stairs) |
+| [0115-distinct-subsequences](https://github.com/thebhupesh/leetcode-solutions/tree/master/0115-distinct-subsequences) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/thebhupesh/leetcode-solutions/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0322-coin-change](https://github.com/thebhupesh/leetcode-solutions/tree/master/0322-coin-change) |
 | [0392-is-subsequence](https://github.com/thebhupesh/leetcode-solutions/tree/master/0392-is-subsequence) |

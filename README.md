@@ -35,6 +35,7 @@ A collection of LeetCode questions.
 | [0973-k-closest-points-to-origin](https://github.com/thebhupesh/leetcode-solutions/tree/master/0973-k-closest-points-to-origin) |
 | [0994-rotting-oranges](https://github.com/thebhupesh/leetcode-solutions/tree/master/0994-rotting-oranges) |
 | [2239-find-closest-number-to-zero](https://github.com/thebhupesh/leetcode-solutions/tree/master/2239-find-closest-number-to-zero) |
+| [3568-minimum-moves-to-clean-the-classroom](https://github.com/thebhupesh/leetcode-solutions/tree/master/3568-minimum-moves-to-clean-the-classroom) |
 | [3875-construct-uniform-parity-array-i](https://github.com/thebhupesh/leetcode-solutions/tree/master/3875-construct-uniform-parity-array-i) |
 | [3876-construct-uniform-parity-array-ii](https://github.com/thebhupesh/leetcode-solutions/tree/master/3876-construct-uniform-parity-array-ii) |
 | [3903-smallest-stable-index-i](https://github.com/thebhupesh/leetcode-solutions/tree/master/3903-smallest-stable-index-i) |
@@ -58,6 +59,7 @@ A collection of LeetCode questions.
 | [0771-jewels-and-stones](https://github.com/thebhupesh/leetcode-solutions/tree/master/0771-jewels-and-stones) |
 | [0981-time-based-key-value-store](https://github.com/thebhupesh/leetcode-solutions/tree/master/0981-time-based-key-value-store) |
 | [1189-maximum-number-of-balloons](https://github.com/thebhupesh/leetcode-solutions/tree/master/1189-maximum-number-of-balloons) |
+| [3568-minimum-moves-to-clean-the-classroom](https://github.com/thebhupesh/leetcode-solutions/tree/master/3568-minimum-moves-to-clean-the-classroom) |
 ## String
 |  |
 | ------- |
@@ -151,6 +153,7 @@ A collection of LeetCode questions.
 | [0542-01-matrix](https://github.com/thebhupesh/leetcode-solutions/tree/master/0542-01-matrix) |
 | [0733-flood-fill](https://github.com/thebhupesh/leetcode-solutions/tree/master/0733-flood-fill) |
 | [0994-rotting-oranges](https://github.com/thebhupesh/leetcode-solutions/tree/master/0994-rotting-oranges) |
+| [3568-minimum-moves-to-clean-the-classroom](https://github.com/thebhupesh/leetcode-solutions/tree/master/3568-minimum-moves-to-clean-the-classroom) |
 ## Binary Tree
 |  |
 | ------- |
@@ -188,6 +191,7 @@ A collection of LeetCode questions.
 | [0542-01-matrix](https://github.com/thebhupesh/leetcode-solutions/tree/master/0542-01-matrix) |
 | [0733-flood-fill](https://github.com/thebhupesh/leetcode-solutions/tree/master/0733-flood-fill) |
 | [0994-rotting-oranges](https://github.com/thebhupesh/leetcode-solutions/tree/master/0994-rotting-oranges) |
+| [3568-minimum-moves-to-clean-the-classroom](https://github.com/thebhupesh/leetcode-solutions/tree/master/3568-minimum-moves-to-clean-the-classroom) |
 ## Divide and Conquer
 |  |
 | ------- |
@@ -291,6 +295,7 @@ A collection of LeetCode questions.
 |  |
 | ------- |
 | [0067-add-binary](https://github.com/thebhupesh/leetcode-solutions/tree/master/0067-add-binary) |
+| [3568-minimum-moves-to-clean-the-classroom](https://github.com/thebhupesh/leetcode-solutions/tree/master/3568-minimum-moves-to-clean-the-classroom) |
 ## Simulation
 |  |
 | ------- |

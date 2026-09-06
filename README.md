@@ -15,6 +15,7 @@ A collection of LeetCode questions.
 | [0039-combination-sum](https://github.com/thebhupesh/leetcode-solutions/tree/master/0039-combination-sum) |
 | [0046-permutations](https://github.com/thebhupesh/leetcode-solutions/tree/master/0046-permutations) |
 | [0048-rotate-image](https://github.com/thebhupesh/leetcode-solutions/tree/master/0048-rotate-image) |
+| [0049-group-anagrams](https://github.com/thebhupesh/leetcode-solutions/tree/master/0049-group-anagrams) |
 | [0053-maximum-subarray](https://github.com/thebhupesh/leetcode-solutions/tree/master/0053-maximum-subarray) |
 | [0054-spiral-matrix](https://github.com/thebhupesh/leetcode-solutions/tree/master/0054-spiral-matrix) |
 | [0056-merge-intervals](https://github.com/thebhupesh/leetcode-solutions/tree/master/0056-merge-intervals) |
@@ -47,6 +48,7 @@ A collection of LeetCode questions.
 | [0003-longest-substring-without-repeating-characters](https://github.com/thebhupesh/leetcode-solutions/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0013-roman-to-integer](https://github.com/thebhupesh/leetcode-solutions/tree/master/0013-roman-to-integer) |
 | [0036-valid-sudoku](https://github.com/thebhupesh/leetcode-solutions/tree/master/0036-valid-sudoku) |
+| [0049-group-anagrams](https://github.com/thebhupesh/leetcode-solutions/tree/master/0049-group-anagrams) |
 | [0076-minimum-window-substring](https://github.com/thebhupesh/leetcode-solutions/tree/master/0076-minimum-window-substring) |
 | [0133-clone-graph](https://github.com/thebhupesh/leetcode-solutions/tree/master/0133-clone-graph) |
 | [0141-linked-list-cycle](https://github.com/thebhupesh/leetcode-solutions/tree/master/0141-linked-list-cycle) |
@@ -67,6 +69,7 @@ A collection of LeetCode questions.
 | [0013-roman-to-integer](https://github.com/thebhupesh/leetcode-solutions/tree/master/0013-roman-to-integer) |
 | [0014-longest-common-prefix](https://github.com/thebhupesh/leetcode-solutions/tree/master/0014-longest-common-prefix) |
 | [0020-valid-parentheses](https://github.com/thebhupesh/leetcode-solutions/tree/master/0020-valid-parentheses) |
+| [0049-group-anagrams](https://github.com/thebhupesh/leetcode-solutions/tree/master/0049-group-anagrams) |
 | [0067-add-binary](https://github.com/thebhupesh/leetcode-solutions/tree/master/0067-add-binary) |
 | [0076-minimum-window-substring](https://github.com/thebhupesh/leetcode-solutions/tree/master/0076-minimum-window-substring) |
 | [0125-valid-palindrome](https://github.com/thebhupesh/leetcode-solutions/tree/master/0125-valid-palindrome) |
@@ -168,6 +171,7 @@ A collection of LeetCode questions.
 |  |
 | ------- |
 | [0015-3sum](https://github.com/thebhupesh/leetcode-solutions/tree/master/0015-3sum) |
+| [0049-group-anagrams](https://github.com/thebhupesh/leetcode-solutions/tree/master/0049-group-anagrams) |
 | [0056-merge-intervals](https://github.com/thebhupesh/leetcode-solutions/tree/master/0056-merge-intervals) |
 | [0075-sort-colors](https://github.com/thebhupesh/leetcode-solutions/tree/master/0075-sort-colors) |
 | [0169-majority-element](https://github.com/thebhupesh/leetcode-solutions/tree/master/0169-majority-element) |

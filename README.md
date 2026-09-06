@@ -334,4 +334,8 @@ A collection of LeetCode questions.
 |  |
 | ------- |
 | [0141-linked-list-cycle](https://github.com/thebhupesh/leetcode-solutions/tree/master/0141-linked-list-cycle) |
+## Boyer–Moore Majority Vote Algorithm
+|  |
+| ------- |
+| [0169-majority-element](https://github.com/thebhupesh/leetcode-solutions/tree/master/0169-majority-element) |
 <!---LeetCode Topics End-->

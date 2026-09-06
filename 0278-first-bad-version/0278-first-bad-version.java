@@ -6,16 +6,15 @@ public class Solution extends VersionControl {
         int min = 1;
         int max = n;
 
-        while(min <= max) {
+        while(min < max) {
             int mid = min + (max-min)/2;
 
             boolean isBad = isBadVersion(mid);
 
             if(!isBad) min = mid+1;
-            else if(isBadVersion(mid-1)) max = mid-1;
-            else return mid;
+            else max = mid;
         }
 
-        return -1;
+        return max;
     }
 }

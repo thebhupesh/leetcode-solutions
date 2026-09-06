@@ -12,21 +12,22 @@ class Solution {
 
         for(int i=0; i<m; i++) {
             for(int j=0; j<n; j++) {
-                if(mat[i][j] == 0) q.offer(new int[]{i,j});
+                if(mat[i][j] == 0) q.offerLast(new int[]{i,j});
                 else mat[i][j] = -1;
             }
         }
 
         while(!q.isEmpty()) {
-            int[] curr = q.poll();
+            int[] curr = q.pollFirst();
             int i = curr[0], j = curr[1];
-
-            if(mat[i][j] == -1) mat[i][j] = Integer.MAX_VALUE;
 
             for(int[] dir : dirs) {
                 if((i+dir[0])>=0 && (i+dir[0])<m && (j+dir[1])>=0 && (j+dir[1])<n) {
                     if(mat[i+dir[0]][j+dir[1]] != -1) mat[i][j] = Math.min(mat[i][j],mat[i+dir[0]][j+dir[1]]+1);
-                    else q.offer(new int[]{i+dir[0],j+dir[1]});
+                    else {
+                        q.offerLast(new int[]{i+dir[0],j+dir[1]});
+                        mat[i+dir[0]][j+dir[1]] = Integer.MAX_VALUE-1;
+                    }
                 }
             }
         }

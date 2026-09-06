@@ -3,12 +3,12 @@ class Solution {
         int res = 0;
         int maj = 0;
 
-        for(int i=0; i<nums.length; i++) {
-            if(nums[i] != res) maj--;
+        for(int n : nums) {
+            if(n != res) maj--;
             else maj++;
 
-            if(maj <= 0) {
-                res = nums[i];
+            if(maj < 0) {
+                res = n;
                 maj = 1;
             }
         }

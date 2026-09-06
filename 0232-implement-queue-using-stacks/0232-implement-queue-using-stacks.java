@@ -1,34 +1,42 @@
 class MyQueue {
-    Stack<Integer> main;
-    Stack<Integer> helper;
+    Stack<Integer> q;
+    int front;
 
     public MyQueue() {
-        main = new Stack<>();
-        helper = new Stack<>();
+        q = new Stack<>();
+        front = -1;
     }
     
     public void push(int x) {
-        while(!main.isEmpty()) {
-            helper.push(main.pop());
-        }
-
-        main.push(x);
-
-        while(!helper.isEmpty()) {
-            main.push(helper.pop());
-        }
+        if(front == -1) front = x;
+        q.push(x);
     }
     
     public int pop() {
-        return main.pop();
+        Stack<Integer> temp = new Stack<>();
+
+        while(!q.isEmpty()) {
+            temp.push(q.pop());
+        }
+
+        int val = temp.pop();
+
+        if(!temp.isEmpty()) front = temp.peek();
+        else front = -1;
+
+        while(!temp.isEmpty()) {
+            q.push(temp.pop());
+        }
+
+        return val;
     }
     
     public int peek() {
-        return main.peek();
+        return front;
     }
     
     public boolean empty() {
-        return main.isEmpty();
+        return front == -1;
     }
 }
 

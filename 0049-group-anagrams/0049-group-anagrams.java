@@ -13,14 +13,6 @@ class Solution {
             m.put(sortedStr,curr);
         }
 
-        System.out.println(m);
-
-        List<List<String>> res = new ArrayList<>();
-
-        Iterator<Map.Entry<String,List<String>>> itr = m.entrySet().iterator();
-
-        while(itr.hasNext()) res.add(itr.next().getValue());
-
-        return res;
+        return new ArrayList<>(m.values());
     }
 }

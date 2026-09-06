@@ -1,40 +1,36 @@
 class Solution {
     public int[][] updateMatrix(int[][] mat) {
-        int m = mat.length;
-        int n = mat[0].length;
-
-        Queue<int[]> q = new LinkedList<>();
-        int[][] result = new int[m][n];
+        int m = mat.length, n = mat[0].length;
+        int[][] dirs = {
+            {-1,0},
+            {0,-1},
+            {1,0},
+            {0,1}
+        };
+        
+        Deque<int[]> q = new ArrayDeque<>();
 
         for(int i=0; i<m; i++) {
             for(int j=0; j<n; j++) {
-                if(mat[i][j] == 0) {
-                    q.add(new int[]{i,j});
-                }
+                if(mat[i][j] == 0) q.offer(new int[]{i,j});
+                else mat[i][j] = -1;
             }
         }
 
         while(!q.isEmpty()) {
             int[] curr = q.poll();
-            
-            if(curr[0] != 0 && mat[curr[0]-1][curr[1]] == 1 && result[curr[0]-1][curr[1]] == 0) {
-                result[curr[0]-1][curr[1]] = result[curr[0]][curr[1]]+1;
-                q.add(new int[]{curr[0]-1,curr[1]});
-            }
-            if(curr[0]+1 != m && mat[curr[0]+1][curr[1]] == 1 && result[curr[0]+1][curr[1]] == 0) {
-                result[curr[0]+1][curr[1]] = result[curr[0]][curr[1]]+1;;
-                q.add(new int[]{curr[0]+1,curr[1]});
-            }
-            if(curr[1] != 0 && mat[curr[0]][curr[1]-1] == 1 && result[curr[0]][curr[1]-1] == 0) {
-                result[curr[0]][curr[1]-1] = result[curr[0]][curr[1]]+1;;
-                q.add(new int[]{curr[0],curr[1]-1});
-            }
-            if(curr[1]+1 != n && mat[curr[0]][curr[1]+1] == 1 && result[curr[0]][curr[1]+1] == 0) {
-                result[curr[0]][curr[1]+1] = result[curr[0]][curr[1]]+1;;
-                q.add(new int[]{curr[0],curr[1]+1});
+            int i = curr[0], j = curr[1];
+
+            if(mat[i][j] == -1) mat[i][j] = Integer.MAX_VALUE;
+
+            for(int[] dir : dirs) {
+                if((i+dir[0])>=0 && (i+dir[0])<m && (j+dir[1])>=0 && (j+dir[1])<n) {
+                    if(mat[i+dir[0]][j+dir[1]] != -1) mat[i][j] = Math.min(mat[i][j],mat[i+dir[0]][j+dir[1]]+1);
+                    else q.offer(new int[]{i+dir[0],j+dir[1]});
+                }
             }
         }
 
-        return result;
+        return mat;
     }
 }

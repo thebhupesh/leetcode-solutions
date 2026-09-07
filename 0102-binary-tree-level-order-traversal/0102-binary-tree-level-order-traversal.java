@@ -15,36 +15,30 @@
  */
 class Solution {
     public List<List<Integer>> levelOrder(TreeNode root) {
-        if(root == null) {
-            return new ArrayList<>();
-        }
-        int level = 1;
-        Queue<Pair<TreeNode,Integer>> q = new LinkedList<>();
-        List<List<Integer>> result = new ArrayList<>();
-        List<Integer> value = new ArrayList<>();
+        List<List<Integer>> res = new ArrayList<>();
+        if(root == null) return res;
 
-        q.add(new Pair<>(root,1));
+        int currLevel = -1;
+        Deque<Pair<TreeNode,Integer>> q = new ArrayDeque<>();
+        q.offerLast(new Pair<>(root,0));
 
         while(!q.isEmpty()) {
-            Pair<TreeNode,Integer> temp = q.poll();
-            TreeNode node = temp.getKey();
-            Integer lvl = temp.getValue();
+            Pair<TreeNode,Integer> curr = q.pollFirst();
+            TreeNode node = curr.getKey();
+            int level = curr.getValue();
 
-            if(level != lvl) {
-                result.add(value);
-                level++;
-                value = new ArrayList<>();
+            if(level > currLevel) {
+                currLevel++;
+                res.add(new ArrayList<>());
             }
-            
-            value.add(node.val);
 
-            if(node.left != null) q.add(new Pair<>(node.left,lvl+1));
+            List<Integer> currList = res.get(currLevel);
+            currList.add(node.val);
 
-            if(node.right != null) q.add(new Pair<>(node.right,lvl+1));
+            if(node.left != null) q.offerLast(new Pair<>(node.left,level+1));
+            if(node.right != null) q.offerLast(new Pair<>(node.right,level+1));
         }
 
-        result.add(value);
-        
-        return result;
+        return res;
     }
 }

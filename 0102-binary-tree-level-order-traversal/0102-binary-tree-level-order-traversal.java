@@ -15,10 +15,10 @@
  */
 class Solution {
     public List<List<Integer>> levelOrder(TreeNode root) {
-        List<List<Integer>> res = new ArrayList<>();
-        if(root == null) return res;
+        if(root == null) return new ArrayList<>();
 
         int currLevel = -1;
+        List<List<Integer>> res = new ArrayList<>();
         Deque<Pair<TreeNode,Integer>> q = new ArrayDeque<>();
         q.offerLast(new Pair<>(root,0));
 

@@ -1,33 +1,32 @@
 class Solution {
-    Map<Long,Integer> dp = new HashMap<>();
-    private int findChange(int[] coins, int amt, long curr) {
-        if(curr == amt) {
-            return 0;
-        } else if(curr > amt) {
-            return -1;
+    private int evaluate(int[] coins, int amount, int pos, int[][] dp) {
+        if(dp[amount][pos] != -2) return dp[amount][pos];
+        if(amount == 0) return 0;
+
+        int count = Integer.MAX_VALUE;
+        int invalid = 0;
+
+        for(int i=pos; i>=0; i--) {
+            if(amount >= coins[i]) {
+                int val = evaluate(coins,amount-coins[i],i,dp);
+
+                if(val != -1) count = Math.min(count,val+1);
+                else invalid++;
+            } else invalid++;
         }
 
-        if(dp.containsKey(curr)) {
-            return dp.get(curr);
-        }
+        dp[amount][pos] = (invalid-1 == pos) ? -1 : count;
 
-        int val = Integer.MAX_VALUE;
-
-        for(int i=coins.length-1; i>=0; i--) {
-            int temp = findChange(coins, amt, curr+coins[i]);
-
-            if(temp != -1) {
-                val = Math.min(temp+1,val);
-            }
-        }
-
-        if(val == Integer.MAX_VALUE) val = -1;
-
-        dp.put(curr, val);
-        return val;
+        return dp[amount][pos];
     }
 
     public int coinChange(int[] coins, int amount) {
-        return findChange(coins, amount, 0);
+        Arrays.sort(coins);
+        
+        int[][] dp = new int[amount+1][coins.length];
+        
+        for(int[] arr : dp) Arrays.fill(arr,-2);
+
+        return evaluate(coins,amount,coins.length-1,dp);
     }
 }

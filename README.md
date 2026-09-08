@@ -352,4 +352,12 @@ A collection of LeetCode questions.
 |  |
 | ------- |
 | [0169-majority-element](https://github.com/thebhupesh/leetcode-solutions/tree/master/0169-majority-element) |
+## Knapsack Problem
+|  |
+| ------- |
+| [0322-coin-change](https://github.com/thebhupesh/leetcode-solutions/tree/master/0322-coin-change) |
+## Complete Knapsack
+|  |
+| ------- |
+| [0322-coin-change](https://github.com/thebhupesh/leetcode-solutions/tree/master/0322-coin-change) |
 <!---LeetCode Topics End-->

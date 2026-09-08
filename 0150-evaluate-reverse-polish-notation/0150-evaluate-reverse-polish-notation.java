@@ -3,17 +3,17 @@ class Solution {
         Deque<Integer> s = new ArrayDeque<>();
 
         for(String token : tokens) {
-            if(token.equals("+")) s.push(s.pop()+s.pop());
-            else if(token.equals("*")) s.push(s.pop()*s.pop());
+            if(token.equals("+")) s.offerFirst(s.pollFirst()+s.pollFirst());
+            else if(token.equals("*")) s.offerFirst(s.pollFirst()*s.pollFirst());
             else if(token.equals("-")) {
-                int top = s.pop();
-                s.push(s.pop()-top);
+                int top = s.pollFirst();
+                s.offerFirst(s.pollFirst()-top);
             } else if(token.equals("/")) {
-                int top = s.pop();
-                s.push(s.pop()/top);
-            } else s.push(Integer.parseInt(token));
+                int top = s.pollFirst();
+                s.offerFirst(s.pollFirst()/top);
+            } else s.offerFirst(Integer.parseInt(token));
         }
 
-        return s.pop();
+        return s.peekFirst();
     }
 }

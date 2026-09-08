@@ -1,23 +1,19 @@
 class Solution {
     public int evalRPN(String[] tokens) {
-        Stack<Integer> s = new Stack<>();
+        Stack<String> s = new Stack<>();
 
-        for(String tkn : tokens) {
-            if (tkn.equals("+") || tkn.equals("-") || tkn.equals("*") || tkn.equals("/")) {
-                int op1 = s.pop();
-                int op2 = s.pop();
-
-                if(tkn.equals("+")) s.push(op2+op1);
-                else if(tkn.equals("-")) s.push(op2-op1);
-                else if(tkn.equals("/")) s.push(op2/op1);
-                else if(tkn.equals("*")) s.push(op2*op1);
-
-                continue;
-            }
-            
-            s.push(Integer.parseInt(tkn));
+        for(String token : tokens) {
+            if(token.equals("+")) s.push(String.valueOf(Integer.parseInt(s.pop())+Integer.parseInt(s.pop())));
+            else if(token.equals("*")) s.push(String.valueOf(Integer.parseInt(s.pop())*Integer.parseInt(s.pop())));
+            else if(token.equals("-")) {
+                String top = s.pop();
+                s.push(String.valueOf(Integer.parseInt(s.pop())-Integer.parseInt(top)));
+            } else if(token.equals("/")) {
+                String top = s.pop();
+                s.push(String.valueOf(Integer.parseInt(s.pop())/Integer.parseInt(top)));
+            } else s.push(token);
         }
 
-        return s.pop();
+        return Integer.parseInt(s.pop());
     }
 }

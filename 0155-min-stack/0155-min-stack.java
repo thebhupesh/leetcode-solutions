@@ -1,38 +1,35 @@
-class Node {
-    int val;
-    int min;
-    Node prev;
-
-    Node(int v, int m, Node n) {
-        val = v;
-        min = m;
-        prev = n;
-    }
-}
-
 class MinStack {
-    Node stack;
-    int min;
+    class Node {
+        int value;
+        int min;
+
+        Node(int value, int min) {
+            this.value = value;
+            this.min = min;
+        }
+    }
+
+    Deque<Node> stack;
 
     public MinStack() {
-        stack = null;
+        stack = new ArrayDeque<>();
     }
     
     public void push(int value) {
-        Node newNode = new Node(value, (stack == null) ? value : Math.min(stack.min,value), stack);
-        stack = newNode;
+        if(stack.size() > 0) stack.push(new Node(value,Math.min(value,stack.peek().min)));
+        else stack.push(new Node(value,value));
     }
     
     public void pop() {
-        stack = stack.prev;
+        stack.pop();
     }
     
     public int top() {
-        return stack.val;
+        return stack.peek().value;
     }
     
     public int getMin() {
-        return stack.min;
+        return stack.peek().min;
     }
 }
 

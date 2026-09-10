@@ -23,7 +23,7 @@ class Solution {
 
         int count = left[1]+right[1]+1;
         int sum = left[2]+right[2]+root.val;
-        int avg = (count > 0) ? Math.round(sum/count) : 0;
+        int avg = (count > 0) ? sum/count : 0;
         int res = left[0]+right[0]+((avg == root.val) ? 1 : 0);
 
         return new int[]{res,count,sum};

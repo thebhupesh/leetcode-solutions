@@ -1,23 +1,21 @@
 class Solution {
     public int longestPalindrome(String s) {
-        Map<Character,Integer> mp = new HashMap<>();
-        int val = 0;
-        int odds = 0;
+        int count = 0;
+        int singleCount = 0;
 
-        for(char ch : s.toCharArray()) {
-            int temp = mp.getOrDefault(ch,0);
-            
-            if(temp%2 == 0) {
-                odds++;
-            }
+        Map<Character,Integer> m = new HashMap<>();
+
+        for(char c : s.toCharArray()) {
+            int val = m.getOrDefault(c,0)+1;
+            m.put(c,val);
+
+            if(val%2 != 0) singleCount++;
             else {
-                val += 2;
-                odds--;
+                count += 2;
+                singleCount--;
             }
-
-            mp.put(ch,temp+1);
         }
 
-        return (odds>0) ? val+1 : val;
+        return (singleCount > 0) ? ++count : count;
     }
 }

@@ -22,7 +22,6 @@ class Solution {
                             if(counts[digit_2] > 0) cnt++;
                         }
 
-                        dp[digit_0][digit_1] = cnt;
                         dp[digit_1][digit_0] = cnt;
 
                         count += cnt;

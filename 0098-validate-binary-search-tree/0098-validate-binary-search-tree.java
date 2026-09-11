@@ -14,13 +14,13 @@
  * }
  */
 class Solution {
-    private boolean checkBST(TreeNode root, long min, long max) {
+    private boolean checkBST(TreeNode root, Integer min, Integer max) {
         if(root == null) return true;
-        else if(root.val <= min || root.val >= max) return false;
-        else return checkBST(root.left, min, Math.min(max,root.val)) && checkBST(root.right, Math.max(min,root.val), max);
+        else if((min != null && root.val <= min) || (max != null && root.val >= max)) return false;
+        else return checkBST(root.left, min, root.val) && checkBST(root.right, root.val, max);
     }
 
     public boolean isValidBST(TreeNode root) {
-        return checkBST(root.left, Long.MIN_VALUE, root.val) && checkBST(root.right, root.val, Long.MAX_VALUE);
+        return checkBST(root, null, null);
     }
 }

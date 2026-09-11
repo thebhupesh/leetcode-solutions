@@ -1,57 +1,53 @@
-class Node {
-    Node[] next;
-    boolean end;
-
-    Node() {
-        next = new Node[26];
-        end = false;
-    }
-}
-
 class Trie {
-    Node data;
+    class Node {
+        Node[] nodes;
+        boolean end;
+
+        Node() {
+            this.nodes = new Node[26];
+            this.end = false;
+        }
+    }
+
+    Node[] trie;
 
     public Trie() {
-        data = new Node();
+        trie = new Node[26];
     }
-
+    
     public void insert(String word) {
-        char[] chars = word.toCharArray();
-        Node curr = data;
+        Node[] curr = trie;
+        int len = word.length();
 
-        for (char ch : chars) {
-            if (curr.next[ch - 'a'] == null) {
-                curr.next[ch - 'a'] = new Node();
-            }
-            curr = curr.next[ch - 'a'];
+        for(int i=0; i<len; i++) {
+            int idx = word.charAt(i)-'a';
+
+            if(curr[idx] == null) curr[idx] = new Node();
+            if(i+1 == len) curr[idx].end = true;
+            curr = curr[idx].nodes;
         }
-
-        curr.end = true;
     }
-
+    
     public boolean search(String word) {
-        char[] chars = word.toCharArray();
-        Node curr = data;
+        Node[] curr = trie;
+        int len = word.length();
 
-        for (char ch : chars) {
-            if (curr.next[ch - 'a'] == null) {
-                return false;
-            }
-            curr = curr.next[ch - 'a'];
+        for(int i=0; i<len; i++) {
+            int idx = word.charAt(i)-'a';
+
+            if(curr[idx] == null || (i+1 == len && !curr[idx].end)) return false;
+            curr = curr[idx].nodes;
         }
 
-        return curr.end;
+        return true;
     }
-
+    
     public boolean startsWith(String prefix) {
-        char[] chars = prefix.toCharArray();
-        Node curr = data;
-
-        for (char ch : chars) {
-            if (curr.next[ch - 'a'] == null) {
-                return false;
-            }
-            curr = curr.next[ch - 'a'];
+        Node[] curr = trie;
+        
+        for(char c : prefix.toCharArray()) {            
+            if(curr[c-'a'] == null) return false;
+            curr = curr[c-'a'].nodes;
         }
 
         return true;

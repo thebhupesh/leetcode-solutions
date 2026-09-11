@@ -16,15 +16,10 @@ class Solution {
                     else if(counts[digit_1] > 0) {
                         counts[digit_1]--;
 
-                        int cnt = 0;
-                        
                         for(int digit_2=1; digit_2<=9; digit_2++) {
-                            if(counts[digit_2] > 0) cnt++;
+                            if(counts[digit_2] > 0) dp[digit_1][digit_0]++;
                         }
-
-                        dp[digit_1][digit_0] = cnt;
-
-                        count += cnt;
+                        count += dp[digit_1][digit_0];
 
                         counts[digit_1]++;
                     }

@@ -10,24 +10,26 @@
  */
 class Solution {
     public ListNode removeNthFromEnd(ListNode head, int n) {
-        Deque<ListNode> stack = new ArrayDeque<>();
         ListNode curr = head;
+        int count = 0;
 
         while(curr != null) {
-            stack.push(curr);
+            count++;
             curr = curr.next;
         }
 
-        while(n > 1) {
-            curr = stack.pop();
-            n--;
+        curr = head;
+
+        if(n == count) return head.next;
+
+        int pos = 1;
+        
+        while(pos < count-n) {
+            curr = curr.next;
+            pos++;
         }
 
-        stack.pop();
-
-        if(stack.size() == 0) return curr;
-        
-        stack.peek().next = curr;
+        curr.next = curr.next.next;
         return head;
     }
 }

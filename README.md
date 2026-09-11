@@ -41,6 +41,7 @@ A collection of LeetCode questions.
 | [0977-squares-of-a-sorted-array](https://github.com/thebhupesh/leetcode-solutions/tree/master/0977-squares-of-a-sorted-array) |
 | [0994-rotting-oranges](https://github.com/thebhupesh/leetcode-solutions/tree/master/0994-rotting-oranges) |
 | [2239-find-closest-number-to-zero](https://github.com/thebhupesh/leetcode-solutions/tree/master/2239-find-closest-number-to-zero) |
+| [3483-unique-3-digit-even-numbers](https://github.com/thebhupesh/leetcode-solutions/tree/master/3483-unique-3-digit-even-numbers) |
 | [3568-minimum-moves-to-clean-the-classroom](https://github.com/thebhupesh/leetcode-solutions/tree/master/3568-minimum-moves-to-clean-the-classroom) |
 | [3875-construct-uniform-parity-array-i](https://github.com/thebhupesh/leetcode-solutions/tree/master/3875-construct-uniform-parity-array-i) |
 | [3876-construct-uniform-parity-array-ii](https://github.com/thebhupesh/leetcode-solutions/tree/master/3876-construct-uniform-parity-array-ii) |
@@ -67,6 +68,7 @@ A collection of LeetCode questions.
 | [0771-jewels-and-stones](https://github.com/thebhupesh/leetcode-solutions/tree/master/0771-jewels-and-stones) |
 | [0981-time-based-key-value-store](https://github.com/thebhupesh/leetcode-solutions/tree/master/0981-time-based-key-value-store) |
 | [1189-maximum-number-of-balloons](https://github.com/thebhupesh/leetcode-solutions/tree/master/1189-maximum-number-of-balloons) |
+| [3483-unique-3-digit-even-numbers](https://github.com/thebhupesh/leetcode-solutions/tree/master/3483-unique-3-digit-even-numbers) |
 | [3568-minimum-moves-to-clean-the-classroom](https://github.com/thebhupesh/leetcode-solutions/tree/master/3568-minimum-moves-to-clean-the-classroom) |
 ## String
 |  |
@@ -111,6 +113,7 @@ A collection of LeetCode questions.
 | ------- |
 | [0021-merge-two-sorted-lists](https://github.com/thebhupesh/leetcode-solutions/tree/master/0021-merge-two-sorted-lists) |
 | [0206-reverse-linked-list](https://github.com/thebhupesh/leetcode-solutions/tree/master/0206-reverse-linked-list) |
+| [3483-unique-3-digit-even-numbers](https://github.com/thebhupesh/leetcode-solutions/tree/master/3483-unique-3-digit-even-numbers) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -373,4 +376,8 @@ A collection of LeetCode questions.
 |  |
 | ------- |
 | [0739-daily-temperatures](https://github.com/thebhupesh/leetcode-solutions/tree/master/0739-daily-temperatures) |
+## Enumeration
+|  |
+| ------- |
+| [3483-unique-3-digit-even-numbers](https://github.com/thebhupesh/leetcode-solutions/tree/master/3483-unique-3-digit-even-numbers) |
 <!---LeetCode Topics End-->

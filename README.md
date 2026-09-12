@@ -212,6 +212,7 @@ A collection of LeetCode questions.
 | [0035-search-insert-position](https://github.com/thebhupesh/leetcode-solutions/tree/master/0035-search-insert-position) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/thebhupesh/leetcode-solutions/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0278-first-bad-version](https://github.com/thebhupesh/leetcode-solutions/tree/master/0278-first-bad-version) |
+| [0367-valid-perfect-square](https://github.com/thebhupesh/leetcode-solutions/tree/master/0367-valid-perfect-square) |
 | [0704-binary-search](https://github.com/thebhupesh/leetcode-solutions/tree/master/0704-binary-search) |
 | [0981-time-based-key-value-store](https://github.com/thebhupesh/leetcode-solutions/tree/master/0981-time-based-key-value-store) |
 ## Matrix
@@ -244,6 +245,7 @@ A collection of LeetCode questions.
 | [0067-add-binary](https://github.com/thebhupesh/leetcode-solutions/tree/master/0067-add-binary) |
 | [0070-climbing-stairs](https://github.com/thebhupesh/leetcode-solutions/tree/master/0070-climbing-stairs) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/thebhupesh/leetcode-solutions/tree/master/0150-evaluate-reverse-polish-notation) |
+| [0367-valid-perfect-square](https://github.com/thebhupesh/leetcode-solutions/tree/master/0367-valid-perfect-square) |
 | [0973-k-closest-points-to-origin](https://github.com/thebhupesh/leetcode-solutions/tree/master/0973-k-closest-points-to-origin) |
 | [3870-count-commas-in-range](https://github.com/thebhupesh/leetcode-solutions/tree/master/3870-count-commas-in-range) |
 | [3871-count-commas-in-range-ii](https://github.com/thebhupesh/leetcode-solutions/tree/master/3871-count-commas-in-range-ii) |

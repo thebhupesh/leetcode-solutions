@@ -251,6 +251,7 @@ A collection of LeetCode questions.
 | [0070-climbing-stairs](https://github.com/thebhupesh/leetcode-solutions/tree/master/0070-climbing-stairs) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/thebhupesh/leetcode-solutions/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0367-valid-perfect-square](https://github.com/thebhupesh/leetcode-solutions/tree/master/0367-valid-perfect-square) |
+| [0836-rectangle-overlap](https://github.com/thebhupesh/leetcode-solutions/tree/master/0836-rectangle-overlap) |
 | [0973-k-closest-points-to-origin](https://github.com/thebhupesh/leetcode-solutions/tree/master/0973-k-closest-points-to-origin) |
 | [3870-count-commas-in-range](https://github.com/thebhupesh/leetcode-solutions/tree/master/3870-count-commas-in-range) |
 | [3871-count-commas-in-range-ii](https://github.com/thebhupesh/leetcode-solutions/tree/master/3871-count-commas-in-range-ii) |
@@ -259,6 +260,7 @@ A collection of LeetCode questions.
 ## Geometry
 |  |
 | ------- |
+| [0836-rectangle-overlap](https://github.com/thebhupesh/leetcode-solutions/tree/master/0836-rectangle-overlap) |
 | [0973-k-closest-points-to-origin](https://github.com/thebhupesh/leetcode-solutions/tree/master/0973-k-closest-points-to-origin) |
 ## Heap (Priority Queue)
 |  |

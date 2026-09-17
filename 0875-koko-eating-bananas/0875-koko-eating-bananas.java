@@ -17,18 +17,15 @@ class Solution {
 
         for(int pile : piles) max = Math.max(max,pile);
 
-        int res = 0;
-
-        while(min <= max) {
+        while(min < max) {
             int mid = min + (max-min)/2;
 
             if(eatable(piles,mid,h)) {
-                max = mid-1;
-                res = mid;
+                max = mid;
             }
             else min = mid+1;
         }
 
-        return res;
+        return max;
     }
 }

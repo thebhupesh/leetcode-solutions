@@ -1,10 +1,14 @@
 class Solution {
-    private int eat(int[] piles, int speed) {
+    private boolean eatable(int[] piles, double speed, int hour) {
         int val = 0;
 
-        for(int pile : piles) val += Math.ceil((double)pile/speed);
+        for(int i=piles.length-1; i>=0; i--) {
+            val += (int)Math.ceil(piles[i]/speed);
 
-        return val;
+            if(val > hour) return false;
+        }
+
+        return true;
     }
 
     public int minEatingSpeed(int[] piles, int h) {
@@ -18,7 +22,7 @@ class Solution {
         while(min <= max) {
             int mid = min + (max-min)/2;
 
-            if(eat(piles,mid) <= h) {
+            if(eatable(piles,mid,h)) {
                 max = mid-1;
                 res = mid;
             }

@@ -41,6 +41,7 @@ A collection of LeetCode questions.
 | [0704-binary-search](https://github.com/thebhupesh/leetcode-solutions/tree/master/0704-binary-search) |
 | [0733-flood-fill](https://github.com/thebhupesh/leetcode-solutions/tree/master/0733-flood-fill) |
 | [0739-daily-temperatures](https://github.com/thebhupesh/leetcode-solutions/tree/master/0739-daily-temperatures) |
+| [0875-koko-eating-bananas](https://github.com/thebhupesh/leetcode-solutions/tree/master/0875-koko-eating-bananas) |
 | [0973-k-closest-points-to-origin](https://github.com/thebhupesh/leetcode-solutions/tree/master/0973-k-closest-points-to-origin) |
 | [0977-squares-of-a-sorted-array](https://github.com/thebhupesh/leetcode-solutions/tree/master/0977-squares-of-a-sorted-array) |
 | [0994-rotting-oranges](https://github.com/thebhupesh/leetcode-solutions/tree/master/0994-rotting-oranges) |
@@ -222,6 +223,7 @@ A collection of LeetCode questions.
 | [0278-first-bad-version](https://github.com/thebhupesh/leetcode-solutions/tree/master/0278-first-bad-version) |
 | [0367-valid-perfect-square](https://github.com/thebhupesh/leetcode-solutions/tree/master/0367-valid-perfect-square) |
 | [0704-binary-search](https://github.com/thebhupesh/leetcode-solutions/tree/master/0704-binary-search) |
+| [0875-koko-eating-bananas](https://github.com/thebhupesh/leetcode-solutions/tree/master/0875-koko-eating-bananas) |
 | [0981-time-based-key-value-store](https://github.com/thebhupesh/leetcode-solutions/tree/master/0981-time-based-key-value-store) |
 ## Matrix
 |  |

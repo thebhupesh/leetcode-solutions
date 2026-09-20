@@ -98,6 +98,7 @@ A collection of LeetCode questions.
 | [0981-time-based-key-value-store](https://github.com/thebhupesh/leetcode-solutions/tree/master/0981-time-based-key-value-store) |
 | [1189-maximum-number-of-balloons](https://github.com/thebhupesh/leetcode-solutions/tree/master/1189-maximum-number-of-balloons) |
 | [1768-merge-strings-alternately](https://github.com/thebhupesh/leetcode-solutions/tree/master/1768-merge-strings-alternately) |
+| [3498-reverse-degree-of-a-string](https://github.com/thebhupesh/leetcode-solutions/tree/master/3498-reverse-degree-of-a-string) |
 ## Stack
 |  |
 | ------- |
@@ -355,6 +356,7 @@ A collection of LeetCode questions.
 | [0054-spiral-matrix](https://github.com/thebhupesh/leetcode-solutions/tree/master/0054-spiral-matrix) |
 | [0067-add-binary](https://github.com/thebhupesh/leetcode-solutions/tree/master/0067-add-binary) |
 | [0682-baseball-game](https://github.com/thebhupesh/leetcode-solutions/tree/master/0682-baseball-game) |
+| [3498-reverse-degree-of-a-string](https://github.com/thebhupesh/leetcode-solutions/tree/master/3498-reverse-degree-of-a-string) |
 ## Quicksort
 |  |
 | ------- |

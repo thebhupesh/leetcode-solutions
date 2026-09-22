@@ -46,6 +46,7 @@ A collection of LeetCode questions.
 | [0973-k-closest-points-to-origin](https://github.com/thebhupesh/leetcode-solutions/tree/master/0973-k-closest-points-to-origin) |
 | [0977-squares-of-a-sorted-array](https://github.com/thebhupesh/leetcode-solutions/tree/master/0977-squares-of-a-sorted-array) |
 | [0994-rotting-oranges](https://github.com/thebhupesh/leetcode-solutions/tree/master/0994-rotting-oranges) |
+| [1004-max-consecutive-ones-iii](https://github.com/thebhupesh/leetcode-solutions/tree/master/1004-max-consecutive-ones-iii) |
 | [2239-find-closest-number-to-zero](https://github.com/thebhupesh/leetcode-solutions/tree/master/2239-find-closest-number-to-zero) |
 | [3483-unique-3-digit-even-numbers](https://github.com/thebhupesh/leetcode-solutions/tree/master/3483-unique-3-digit-even-numbers) |
 | [3568-minimum-moves-to-clean-the-classroom](https://github.com/thebhupesh/leetcode-solutions/tree/master/3568-minimum-moves-to-clean-the-classroom) |
@@ -227,6 +228,7 @@ A collection of LeetCode questions.
 | [0704-binary-search](https://github.com/thebhupesh/leetcode-solutions/tree/master/0704-binary-search) |
 | [0875-koko-eating-bananas](https://github.com/thebhupesh/leetcode-solutions/tree/master/0875-koko-eating-bananas) |
 | [0981-time-based-key-value-store](https://github.com/thebhupesh/leetcode-solutions/tree/master/0981-time-based-key-value-store) |
+| [1004-max-consecutive-ones-iii](https://github.com/thebhupesh/leetcode-solutions/tree/master/1004-max-consecutive-ones-iii) |
 ## Matrix
 |  |
 | ------- |
@@ -307,6 +309,7 @@ A collection of LeetCode questions.
 | [0003-longest-substring-without-repeating-characters](https://github.com/thebhupesh/leetcode-solutions/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0076-minimum-window-substring](https://github.com/thebhupesh/leetcode-solutions/tree/master/0076-minimum-window-substring) |
 | [0643-maximum-average-subarray-i](https://github.com/thebhupesh/leetcode-solutions/tree/master/0643-maximum-average-subarray-i) |
+| [1004-max-consecutive-ones-iii](https://github.com/thebhupesh/leetcode-solutions/tree/master/1004-max-consecutive-ones-iii) |
 ## Graph Theory
 |  |
 | ------- |
@@ -325,6 +328,7 @@ A collection of LeetCode questions.
 |  |
 | ------- |
 | [0238-product-of-array-except-self](https://github.com/thebhupesh/leetcode-solutions/tree/master/0238-product-of-array-except-self) |
+| [1004-max-consecutive-ones-iii](https://github.com/thebhupesh/leetcode-solutions/tree/master/1004-max-consecutive-ones-iii) |
 | [3903-smallest-stable-index-i](https://github.com/thebhupesh/leetcode-solutions/tree/master/3903-smallest-stable-index-i) |
 | [3904-smallest-stable-index-ii](https://github.com/thebhupesh/leetcode-solutions/tree/master/3904-smallest-stable-index-ii) |
 ## Memoization

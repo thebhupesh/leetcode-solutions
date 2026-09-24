@@ -13,7 +13,7 @@ class Solution {
             } else if(right < nums.length) {
                 curr += nums[right];
                 right++;
-            } else left++;
+            } else break;
         }
 
         return res;

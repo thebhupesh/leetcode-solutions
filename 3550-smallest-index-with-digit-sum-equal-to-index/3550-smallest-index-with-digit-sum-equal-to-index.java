@@ -1,13 +1,11 @@
 class Solution {
-    private boolean check(int num, int i) {
-        int sum = 0;
-        
+    private boolean check(int num, int i) {        
         while(num != 0) {
-            sum += num%10;
+            i -= num%10;
             num /= 10;
         }
         
-        return sum == i;
+        return i == 0;
     }
 
     public int smallestIndex(int[] nums) {

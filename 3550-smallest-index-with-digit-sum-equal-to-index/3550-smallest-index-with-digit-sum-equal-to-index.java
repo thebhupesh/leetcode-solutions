@@ -1,12 +1,17 @@
 class Solution {
-    private boolean check(String num, int i) {
+    private boolean check(int num, int i) {
         int sum = 0;
-        for(char digit : num.toCharArray()) sum += (digit-'0');
+        
+        while(num != 0) {
+            sum += num%10;
+            num /= 10;
+        }
+        
         return sum == i;
     }
 
     public int smallestIndex(int[] nums) {
-        for(int i=0; i<nums.length; i++) if(check(Integer.toString(nums[i]),i)) return i;
+        for(int i=0; i<nums.length; i++) if(check(nums[i],i)) return i;
         return -1;
     }
 }

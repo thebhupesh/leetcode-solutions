@@ -430,4 +430,8 @@ A collection of LeetCode questions.
 |  |
 | ------- |
 | [3483-unique-3-digit-even-numbers](https://github.com/thebhupesh/leetcode-solutions/tree/master/3483-unique-3-digit-even-numbers) |
+## DP on Trees
+|  |
+| ------- |
+| [0543-diameter-of-binary-tree](https://github.com/thebhupesh/leetcode-solutions/tree/master/0543-diameter-of-binary-tree) |
 <!---LeetCode Topics End-->

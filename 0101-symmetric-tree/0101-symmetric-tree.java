@@ -21,7 +21,6 @@ class Solution {
     }
 
     public boolean isSymmetric(TreeNode root) {
-
-        return (root == null) ? true : compare(root.left,root.right);    
+        return compare(root.left,root.right);    
     }
 }

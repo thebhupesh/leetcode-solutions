@@ -32,9 +32,9 @@ class Solution {
                 if(curr.left != null) stack.push(curr.left);
             }
 
-            if(k == 0) break;
+            if(k == 0) return last;
         }
 
-        return last;
+        return -1;
     }
 }

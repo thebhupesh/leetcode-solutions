@@ -126,6 +126,7 @@ A collection of LeetCode questions.
 | ------- |
 | [0019-remove-nth-node-from-end-of-list](https://github.com/thebhupesh/leetcode-solutions/tree/master/0019-remove-nth-node-from-end-of-list) |
 | [0021-merge-two-sorted-lists](https://github.com/thebhupesh/leetcode-solutions/tree/master/0021-merge-two-sorted-lists) |
+| [0023-merge-k-sorted-lists](https://github.com/thebhupesh/leetcode-solutions/tree/master/0023-merge-k-sorted-lists) |
 | [0083-remove-duplicates-from-sorted-list](https://github.com/thebhupesh/leetcode-solutions/tree/master/0083-remove-duplicates-from-sorted-list) |
 | [0138-copy-list-with-random-pointer](https://github.com/thebhupesh/leetcode-solutions/tree/master/0138-copy-list-with-random-pointer) |
 | [0141-linked-list-cycle](https://github.com/thebhupesh/leetcode-solutions/tree/master/0141-linked-list-cycle) |
@@ -284,6 +285,7 @@ A collection of LeetCode questions.
 ## Divide and Conquer
 |  |
 | ------- |
+| [0023-merge-k-sorted-lists](https://github.com/thebhupesh/leetcode-solutions/tree/master/0023-merge-k-sorted-lists) |
 | [0053-maximum-subarray](https://github.com/thebhupesh/leetcode-solutions/tree/master/0053-maximum-subarray) |
 | [0169-majority-element](https://github.com/thebhupesh/leetcode-solutions/tree/master/0169-majority-element) |
 | [0215-kth-largest-element-in-an-array](https://github.com/thebhupesh/leetcode-solutions/tree/master/0215-kth-largest-element-in-an-array) |
@@ -322,6 +324,7 @@ A collection of LeetCode questions.
 ## Heap (Priority Queue)
 |  |
 | ------- |
+| [0023-merge-k-sorted-lists](https://github.com/thebhupesh/leetcode-solutions/tree/master/0023-merge-k-sorted-lists) |
 | [0215-kth-largest-element-in-an-array](https://github.com/thebhupesh/leetcode-solutions/tree/master/0215-kth-largest-element-in-an-array) |
 | [0347-top-k-frequent-elements](https://github.com/thebhupesh/leetcode-solutions/tree/master/0347-top-k-frequent-elements) |
 | [0973-k-closest-points-to-origin](https://github.com/thebhupesh/leetcode-solutions/tree/master/0973-k-closest-points-to-origin) |
@@ -484,4 +487,12 @@ A collection of LeetCode questions.
 |  |
 | ------- |
 | [0347-top-k-frequent-elements](https://github.com/thebhupesh/leetcode-solutions/tree/master/0347-top-k-frequent-elements) |
+## Merge Sort
+|  |
+| ------- |
+| [0023-merge-k-sorted-lists](https://github.com/thebhupesh/leetcode-solutions/tree/master/0023-merge-k-sorted-lists) |
+## Tournament Sort
+|  |
+| ------- |
+| [0023-merge-k-sorted-lists](https://github.com/thebhupesh/leetcode-solutions/tree/master/0023-merge-k-sorted-lists) |
 <!---LeetCode Topics End-->

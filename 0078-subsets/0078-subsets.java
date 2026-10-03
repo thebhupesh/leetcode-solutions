@@ -11,7 +11,7 @@ class Solution {
             tempRes.add(temp);
         }
 
-        return solve(nums, ++pos, tempRes);
+        return solve(nums, pos+1, tempRes);
     }
     
     public List<List<Integer>> subsets(int[] nums) {

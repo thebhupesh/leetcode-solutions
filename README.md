@@ -24,6 +24,7 @@ A collection of LeetCode questions.
 | [0057-insert-interval](https://github.com/thebhupesh/leetcode-solutions/tree/master/0057-insert-interval) |
 | [0074-search-a-2d-matrix](https://github.com/thebhupesh/leetcode-solutions/tree/master/0074-search-a-2d-matrix) |
 | [0075-sort-colors](https://github.com/thebhupesh/leetcode-solutions/tree/master/0075-sort-colors) |
+| [0078-subsets](https://github.com/thebhupesh/leetcode-solutions/tree/master/0078-subsets) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/thebhupesh/leetcode-solutions/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0128-longest-consecutive-sequence](https://github.com/thebhupesh/leetcode-solutions/tree/master/0128-longest-consecutive-sequence) |
 | [0134-gas-station](https://github.com/thebhupesh/leetcode-solutions/tree/master/0134-gas-station) |
@@ -409,10 +410,12 @@ A collection of LeetCode questions.
 | ------- |
 | [0039-combination-sum](https://github.com/thebhupesh/leetcode-solutions/tree/master/0039-combination-sum) |
 | [0046-permutations](https://github.com/thebhupesh/leetcode-solutions/tree/master/0046-permutations) |
+| [0078-subsets](https://github.com/thebhupesh/leetcode-solutions/tree/master/0078-subsets) |
 ## Bit Manipulation
 |  |
 | ------- |
 | [0067-add-binary](https://github.com/thebhupesh/leetcode-solutions/tree/master/0067-add-binary) |
+| [0078-subsets](https://github.com/thebhupesh/leetcode-solutions/tree/master/0078-subsets) |
 | [3568-minimum-moves-to-clean-the-classroom](https://github.com/thebhupesh/leetcode-solutions/tree/master/3568-minimum-moves-to-clean-the-classroom) |
 ## Simulation
 |  |

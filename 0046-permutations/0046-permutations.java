@@ -1,33 +1,30 @@
 class Solution {
-    Set<List<Integer>> set = new HashSet<>();
-    
-    public List<List<Integer>> permute(int[] nums) {
-        int len = nums.length;
-        int idx = 0;
-        int pos = 0;
+    private void findPermutations(List<List<Integer>> perms, int val) {
+        List<List<Integer>> newPerms = new ArrayList<>();
+        
+        for(int i=0; i<perms.size(); i++) {
+            List<Integer> curr = perms.get(i);
+            curr.add(val);
+            
+            for(int j=0; j<curr.size()-1; j++) {
+                List<Integer> newPerm = new ArrayList<>(curr);
+                newPerm.set(newPerm.size()-1, newPerm.get(j));
+                newPerm.set(j, val);
+                newPerms.add(newPerm);
 
-        while(idx < len) {
-            while(pos < len) {
-                int[] temp = Arrays.copyOf(nums, len);
-
-                int val = temp[idx];
-                temp[idx] = temp[pos];
-                temp[pos] = val;
-
-                List<Integer> tempList = new ArrayList<>(Arrays.stream(temp).boxed().toList());
-
-                if(!set.contains(tempList)) {
-                    set.add(tempList);
-                    set.addAll(permute(temp));
-                }
-
-                pos++;
+                System.out.println(newPerm);
             }
-
-            idx++;
-            pos = idx+1;
         }
 
-        return new ArrayList<>(set);
+        perms.addAll(newPerms);
+    }
+
+    public List<List<Integer>> permute(int[] nums) {
+        List<List<Integer>> res = new ArrayList<>();
+        res.add(new ArrayList<>(Arrays.asList(nums[0])));
+
+        for(int i=1; i<nums.length; i++) findPermutations(res, nums[i]);
+
+        return res;
     }
 }

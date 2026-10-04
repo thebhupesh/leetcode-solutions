@@ -11,8 +11,6 @@ class Solution {
                 newPerm.set(newPerm.size()-1, newPerm.get(j));
                 newPerm.set(j, val);
                 newPerms.add(newPerm);
-
-                System.out.println(newPerm);
             }
         }
 

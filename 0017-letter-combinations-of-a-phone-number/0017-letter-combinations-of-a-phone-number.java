@@ -18,9 +18,7 @@ class Solution {
 
             for(String str : res) {
                 for(Character ch : chars) {
-                    StringBuilder temp = new StringBuilder(str);
-                    temp.append(ch);
-                    tempRes.add(temp.toString());
+                    tempRes.add(str+ch);
                 }
             }
 

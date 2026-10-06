@@ -7,11 +7,14 @@ class Solution {
 
             if(temp == target) res.add(list);
             else if(temp < target) findCombinations(res, candidates, i, temp, target, list);
+            else return;
         }
     }
 
     public List<List<Integer>> combinationSum(int[] candidates, int target) {
         List<List<Integer>> res = new ArrayList<>();
+
+        Arrays.sort(candidates);
 
         findCombinations(res, candidates, 0, 0, target, new ArrayList<>());
 

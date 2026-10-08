@@ -29,8 +29,3 @@ class Solution {
         return false;
     }
 }
-
-
-// ABCE
-// SFES
-// ADEE

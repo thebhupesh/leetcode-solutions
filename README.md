@@ -25,6 +25,7 @@ A collection of LeetCode questions.
 | [0074-search-a-2d-matrix](https://github.com/thebhupesh/leetcode-solutions/tree/master/0074-search-a-2d-matrix) |
 | [0075-sort-colors](https://github.com/thebhupesh/leetcode-solutions/tree/master/0075-sort-colors) |
 | [0078-subsets](https://github.com/thebhupesh/leetcode-solutions/tree/master/0078-subsets) |
+| [0079-word-search](https://github.com/thebhupesh/leetcode-solutions/tree/master/0079-word-search) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/thebhupesh/leetcode-solutions/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0128-longest-consecutive-sequence](https://github.com/thebhupesh/leetcode-solutions/tree/master/0128-longest-consecutive-sequence) |
 | [0134-gas-station](https://github.com/thebhupesh/leetcode-solutions/tree/master/0134-gas-station) |
@@ -100,6 +101,7 @@ A collection of LeetCode questions.
 | [0049-group-anagrams](https://github.com/thebhupesh/leetcode-solutions/tree/master/0049-group-anagrams) |
 | [0067-add-binary](https://github.com/thebhupesh/leetcode-solutions/tree/master/0067-add-binary) |
 | [0076-minimum-window-substring](https://github.com/thebhupesh/leetcode-solutions/tree/master/0076-minimum-window-substring) |
+| [0079-word-search](https://github.com/thebhupesh/leetcode-solutions/tree/master/0079-word-search) |
 | [0115-distinct-subsequences](https://github.com/thebhupesh/leetcode-solutions/tree/master/0115-distinct-subsequences) |
 | [0125-valid-palindrome](https://github.com/thebhupesh/leetcode-solutions/tree/master/0125-valid-palindrome) |
 | [0208-implement-trie-prefix-tree](https://github.com/thebhupesh/leetcode-solutions/tree/master/0208-implement-trie-prefix-tree) |
@@ -192,6 +194,7 @@ A collection of LeetCode questions.
 ## Depth-First Search
 |  |
 | ------- |
+| [0079-word-search](https://github.com/thebhupesh/leetcode-solutions/tree/master/0079-word-search) |
 | [0098-validate-binary-search-tree](https://github.com/thebhupesh/leetcode-solutions/tree/master/0098-validate-binary-search-tree) |
 | [0100-same-tree](https://github.com/thebhupesh/leetcode-solutions/tree/master/0100-same-tree) |
 | [0101-symmetric-tree](https://github.com/thebhupesh/leetcode-solutions/tree/master/0101-symmetric-tree) |
@@ -282,6 +285,7 @@ A collection of LeetCode questions.
 | [0048-rotate-image](https://github.com/thebhupesh/leetcode-solutions/tree/master/0048-rotate-image) |
 | [0054-spiral-matrix](https://github.com/thebhupesh/leetcode-solutions/tree/master/0054-spiral-matrix) |
 | [0074-search-a-2d-matrix](https://github.com/thebhupesh/leetcode-solutions/tree/master/0074-search-a-2d-matrix) |
+| [0079-word-search](https://github.com/thebhupesh/leetcode-solutions/tree/master/0079-word-search) |
 | [0200-number-of-islands](https://github.com/thebhupesh/leetcode-solutions/tree/master/0200-number-of-islands) |
 | [0542-01-matrix](https://github.com/thebhupesh/leetcode-solutions/tree/master/0542-01-matrix) |
 | [0733-flood-fill](https://github.com/thebhupesh/leetcode-solutions/tree/master/0733-flood-fill) |
@@ -418,6 +422,7 @@ A collection of LeetCode questions.
 | [0046-permutations](https://github.com/thebhupesh/leetcode-solutions/tree/master/0046-permutations) |
 | [0077-combinations](https://github.com/thebhupesh/leetcode-solutions/tree/master/0077-combinations) |
 | [0078-subsets](https://github.com/thebhupesh/leetcode-solutions/tree/master/0078-subsets) |
+| [0079-word-search](https://github.com/thebhupesh/leetcode-solutions/tree/master/0079-word-search) |
 ## Bit Manipulation
 |  |
 | ------- |

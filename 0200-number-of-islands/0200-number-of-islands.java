@@ -1,31 +1,25 @@
 class Solution {
     public void traverse(char[][] grid, int[] curr, int m, int n) {
+        if(curr[0]<0 || curr[0]==m || curr[1]<0 || curr[1]==n || grid[curr[0]][curr[1]] == '0') return;
+
         int[][] dirs = {
             {0,1},
             {1,0},
             {0,-1},
             {-1,0}
         };
-        Deque<int[]> stack = new ArrayDeque<>();
-        stack.push(curr);
 
-        while(!stack.isEmpty()) {
-            curr = stack.pop();
+        grid[curr[0]][curr[1]] = '0';
 
-            for(int[] dir : dirs) {
-                int i = curr[0]+dir[0];
-                int j = curr[1]+dir[1];
+        for(int[] dir : dirs) {
+            int i = curr[0]+dir[0];
+            int j = curr[1]+dir[1];
 
-                if(i>=0 && i<m && j>=0 && j<n && grid[i][j] == '1') {
-                    grid[i][j] = '0';
-                    stack.push(new int[]{i,j});
-                }
-            }
+            traverse(grid, new int[]{i,j}, m, n);
         }
     }
 
     public int numIslands(char[][] grid) {
-        
         int m = grid.length, n = grid[0].length;
         int res = 0;
 

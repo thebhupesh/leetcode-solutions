@@ -44,6 +44,7 @@ A collection of LeetCode questions.
 | [0542-01-matrix](https://github.com/thebhupesh/leetcode-solutions/tree/master/0542-01-matrix) |
 | [0643-maximum-average-subarray-i](https://github.com/thebhupesh/leetcode-solutions/tree/master/0643-maximum-average-subarray-i) |
 | [0682-baseball-game](https://github.com/thebhupesh/leetcode-solutions/tree/master/0682-baseball-game) |
+| [0695-max-area-of-island](https://github.com/thebhupesh/leetcode-solutions/tree/master/0695-max-area-of-island) |
 | [0704-binary-search](https://github.com/thebhupesh/leetcode-solutions/tree/master/0704-binary-search) |
 | [0733-flood-fill](https://github.com/thebhupesh/leetcode-solutions/tree/master/0733-flood-fill) |
 | [0739-daily-temperatures](https://github.com/thebhupesh/leetcode-solutions/tree/master/0739-daily-temperatures) |
@@ -211,6 +212,7 @@ A collection of LeetCode questions.
 | [0530-minimum-absolute-difference-in-bst](https://github.com/thebhupesh/leetcode-solutions/tree/master/0530-minimum-absolute-difference-in-bst) |
 | [0543-diameter-of-binary-tree](https://github.com/thebhupesh/leetcode-solutions/tree/master/0543-diameter-of-binary-tree) |
 | [0572-subtree-of-another-tree](https://github.com/thebhupesh/leetcode-solutions/tree/master/0572-subtree-of-another-tree) |
+| [0695-max-area-of-island](https://github.com/thebhupesh/leetcode-solutions/tree/master/0695-max-area-of-island) |
 | [0733-flood-fill](https://github.com/thebhupesh/leetcode-solutions/tree/master/0733-flood-fill) |
 | [1971-find-if-path-exists-in-graph](https://github.com/thebhupesh/leetcode-solutions/tree/master/1971-find-if-path-exists-in-graph) |
 | [2265-count-nodes-equal-to-average-of-subtree](https://github.com/thebhupesh/leetcode-solutions/tree/master/2265-count-nodes-equal-to-average-of-subtree) |
@@ -229,6 +231,7 @@ A collection of LeetCode questions.
 | [0322-coin-change](https://github.com/thebhupesh/leetcode-solutions/tree/master/0322-coin-change) |
 | [0530-minimum-absolute-difference-in-bst](https://github.com/thebhupesh/leetcode-solutions/tree/master/0530-minimum-absolute-difference-in-bst) |
 | [0542-01-matrix](https://github.com/thebhupesh/leetcode-solutions/tree/master/0542-01-matrix) |
+| [0695-max-area-of-island](https://github.com/thebhupesh/leetcode-solutions/tree/master/0695-max-area-of-island) |
 | [0733-flood-fill](https://github.com/thebhupesh/leetcode-solutions/tree/master/0733-flood-fill) |
 | [0994-rotting-oranges](https://github.com/thebhupesh/leetcode-solutions/tree/master/0994-rotting-oranges) |
 | [1971-find-if-path-exists-in-graph](https://github.com/thebhupesh/leetcode-solutions/tree/master/1971-find-if-path-exists-in-graph) |
@@ -290,6 +293,7 @@ A collection of LeetCode questions.
 | [0079-word-search](https://github.com/thebhupesh/leetcode-solutions/tree/master/0079-word-search) |
 | [0200-number-of-islands](https://github.com/thebhupesh/leetcode-solutions/tree/master/0200-number-of-islands) |
 | [0542-01-matrix](https://github.com/thebhupesh/leetcode-solutions/tree/master/0542-01-matrix) |
+| [0695-max-area-of-island](https://github.com/thebhupesh/leetcode-solutions/tree/master/0695-max-area-of-island) |
 | [0733-flood-fill](https://github.com/thebhupesh/leetcode-solutions/tree/master/0733-flood-fill) |
 | [0994-rotting-oranges](https://github.com/thebhupesh/leetcode-solutions/tree/master/0994-rotting-oranges) |
 | [3568-minimum-moves-to-clean-the-classroom](https://github.com/thebhupesh/leetcode-solutions/tree/master/3568-minimum-moves-to-clean-the-classroom) |
@@ -416,6 +420,7 @@ A collection of LeetCode questions.
 | ------- |
 | [0128-longest-consecutive-sequence](https://github.com/thebhupesh/leetcode-solutions/tree/master/0128-longest-consecutive-sequence) |
 | [0200-number-of-islands](https://github.com/thebhupesh/leetcode-solutions/tree/master/0200-number-of-islands) |
+| [0695-max-area-of-island](https://github.com/thebhupesh/leetcode-solutions/tree/master/0695-max-area-of-island) |
 | [1971-find-if-path-exists-in-graph](https://github.com/thebhupesh/leetcode-solutions/tree/master/1971-find-if-path-exists-in-graph) |
 ## Backtracking
 |  |

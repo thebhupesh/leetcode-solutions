@@ -8,9 +8,11 @@ class Solution {
 
         if(adj[curr] != null) {
             for(int course : adj[curr]) {
-                if(!isPossible(course, visited, adj, new HashSet<>(marked))) return false;
+                if(!isPossible(course, visited, adj, marked)) return false;
             }
         }
+
+        marked.remove(curr);
 
         return true;
     }

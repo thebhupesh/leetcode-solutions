@@ -1,5 +1,6 @@
 class Solution {
-    List<Integer> res;
+    int[] res;
+    int pos;
 
     private boolean isPossible(int curr, boolean[] visited, List<Integer>[] adj, boolean[] marked) {
         if(marked[curr]) return false;
@@ -14,7 +15,7 @@ class Solution {
             }
         }
 
-        res.add(curr);
+        res[pos++] = curr;
         marked[curr] = false;
 
         return true;
@@ -29,12 +30,13 @@ class Solution {
         }
 
         boolean[] visited = new boolean[numCourses];
-        res = new ArrayList<>();
+        res = new int[numCourses];
+        pos = 0;
 
         for(int i=0; i<numCourses; i++) {
             if(!visited[i] && !isPossible(i, visited, adj, new boolean[numCourses])) return new int[0];
         }
 
-        return res.stream().mapToInt(Integer::intValue).toArray();
+        return res;
     }
 }

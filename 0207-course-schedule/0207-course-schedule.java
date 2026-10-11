@@ -1,10 +1,10 @@
 class Solution {
-    private boolean isPossible(int curr, boolean[] visited, List<Integer>[] adj, Set<Integer> marked) {
-        if(marked.contains(curr)) return false;
+    private boolean isPossible(int curr, boolean[] visited, List<Integer>[] adj, boolean[] marked) {
+        if(marked[curr]) return false;
         if(visited[curr]) return true;
 
         visited[curr] = true;
-        marked.add(curr);
+        marked[curr] = true;
 
         if(adj[curr] != null) {
             for(int course : adj[curr]) {
@@ -12,7 +12,7 @@ class Solution {
             }
         }
 
-        marked.remove(curr);
+        marked[curr] = false;
 
         return true;
     }
@@ -28,7 +28,7 @@ class Solution {
         boolean[] visited = new boolean[numCourses];
 
         for(int i=0; i<numCourses; i++) {
-            if(!visited[i] && !isPossible(i, visited, adj, new HashSet<>())) return false;
+            if(!visited[i] && !isPossible(i, visited, adj, new boolean[numCourses])) return false;
         }
 
         return true;

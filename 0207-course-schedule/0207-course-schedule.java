@@ -1,40 +1,34 @@
 class Solution {
-    public boolean canFinish(int numCourses, int[][] prerequisites) {
-        List<Integer>[] adj = new List[numCourses];
-        int[] inDegree = new int[numCourses];
+    private boolean isPossible(int curr, boolean[] visited, List<Integer>[] adj, Set<Integer> marked) {
+        if(marked.contains(curr)) return false;
+        if(visited[curr]) return true;
 
-        for(int[] val : prerequisites) {
-            if(adj[val[0]] == null) {
-                adj[val[0]] = new ArrayList<>();
+        visited[curr] = true;
+        marked.add(curr);
+
+        if(adj[curr] != null) {
+            for(int course : adj[curr]) {
+                if(!isPossible(course, visited, adj, new HashSet<>(marked))) return false;
             }
-
-            adj[val[0]].add(val[1]);
-            inDegree[val[1]]++;
         }
 
-        Queue<Integer> q = new LinkedList<>();
-        int resolved = 0;
+        return true;
+    }
+
+    public boolean canFinish(int numCourses, int[][] prerequisites) {
+        List<Integer>[] adj = new ArrayList[numCourses];
+
+        for(int[] prerequisite : prerequisites) {
+            if(adj[prerequisite[0]] == null) adj[prerequisite[0]] = new ArrayList<>();
+            adj[prerequisite[0]].add(prerequisite[1]);
+        }
+
+        boolean[] visited = new boolean[numCourses];
 
         for(int i=0; i<numCourses; i++) {
-            if(inDegree[i] == 0) {
-                q.offer(i);
-            }
+            if(!visited[i] && !isPossible(i, visited, adj, new HashSet<>())) return false;
         }
 
-        while(!q.isEmpty()) {
-            int curr = q.poll();
-            resolved++;
-
-            if(adj[curr] != null) {
-                for(int i : adj[curr]) {
-                    inDegree[i]--;
-                    if(inDegree[i] == 0) {
-                        q.offer(i);
-                    }
-                }
-            }
-        }
-
-        return numCourses == resolved;
+        return true;
     }
 }

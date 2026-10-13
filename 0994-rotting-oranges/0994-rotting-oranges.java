@@ -8,12 +8,14 @@ class Solution {
             {0,-1}
         };
         Deque<int[]> queue = new ArrayDeque<>();
+        int fresh = 0;
 
         int res = 0;
 
         for(int i=0; i<m; i++) {
             for(int j=0; j<n; j++) {
                 if(grid[i][j] == 2) queue.offer(new int[]{i,j,0});
+                if(grid[i][j] == 1) fresh++;
             }
         }
 
@@ -27,17 +29,14 @@ class Solution {
                 int j = curr[1]+dir[1];
 
                 if(i>=0 && j>=0 && i<m && j<n && grid[i][j] == 1) {
+                    fresh--;
                     grid[i][j] = 2;
                     queue.offer(new int[]{i,j,curr[2]+1});
                 }
             }
         }
 
-        for(int i=0; i<m; i++) {
-            for(int j=0; j<n; j++) {
-                if(grid[i][j] == 1) return -1;
-            }
-        }
+        if(fresh != 0) return -1;
 
         return res;
     }

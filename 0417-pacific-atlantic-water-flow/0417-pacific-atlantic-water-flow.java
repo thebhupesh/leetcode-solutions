@@ -1,9 +1,10 @@
 class Solution {
-    public List<List<Integer>> pacificAtlantic(int[][] heights) {
-        int m = heights.length, n = heights[0].length;
-        int[][] dirs = {
+    private static final int[][] dirs = {
             {1,0},{0,1},{-1,0},{0,-1}
         };
+
+    public List<List<Integer>> pacificAtlantic(int[][] heights) {
+        int m = heights.length, n = heights[0].length;
         
         List<List<Integer>> res = new ArrayList<>();
         boolean[][] reachPacific = new boolean[m][n];

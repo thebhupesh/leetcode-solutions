@@ -12,6 +12,8 @@ class Solution {
         dp = new int[cost.length];
         Arrays.fill(dp,-1);
 
-        return Math.min(findCost(cost,0),findCost(cost,1));
+        findCost(cost,0);
+
+        return Math.min(dp[0],dp[1]);
     }
 }

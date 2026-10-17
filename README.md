@@ -155,6 +155,7 @@ A collection of LeetCode questions.
 | [0022-generate-parentheses](https://github.com/thebhupesh/leetcode-solutions/tree/master/0022-generate-parentheses) |
 | [0042-trapping-rain-water](https://github.com/thebhupesh/leetcode-solutions/tree/master/0042-trapping-rain-water) |
 | [0053-maximum-subarray](https://github.com/thebhupesh/leetcode-solutions/tree/master/0053-maximum-subarray) |
+| [0062-unique-paths](https://github.com/thebhupesh/leetcode-solutions/tree/master/0062-unique-paths) |
 | [0070-climbing-stairs](https://github.com/thebhupesh/leetcode-solutions/tree/master/0070-climbing-stairs) |
 | [0115-distinct-subsequences](https://github.com/thebhupesh/leetcode-solutions/tree/master/0115-distinct-subsequences) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/thebhupesh/leetcode-solutions/tree/master/0121-best-time-to-buy-and-sell-stock) |
@@ -330,6 +331,7 @@ A collection of LeetCode questions.
 | ------- |
 | [0013-roman-to-integer](https://github.com/thebhupesh/leetcode-solutions/tree/master/0013-roman-to-integer) |
 | [0048-rotate-image](https://github.com/thebhupesh/leetcode-solutions/tree/master/0048-rotate-image) |
+| [0062-unique-paths](https://github.com/thebhupesh/leetcode-solutions/tree/master/0062-unique-paths) |
 | [0067-add-binary](https://github.com/thebhupesh/leetcode-solutions/tree/master/0067-add-binary) |
 | [0070-climbing-stairs](https://github.com/thebhupesh/leetcode-solutions/tree/master/0070-climbing-stairs) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/thebhupesh/leetcode-solutions/tree/master/0150-evaluate-reverse-polish-notation) |
@@ -540,4 +542,8 @@ A collection of LeetCode questions.
 |  |
 | ------- |
 | [0207-course-schedule](https://github.com/thebhupesh/leetcode-solutions/tree/master/0207-course-schedule) |
+## Combinatorics
+|  |
+| ------- |
+| [0062-unique-paths](https://github.com/thebhupesh/leetcode-solutions/tree/master/0062-unique-paths) |
 <!---LeetCode Topics End-->

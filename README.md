@@ -20,6 +20,7 @@ A collection of LeetCode questions.
 | [0049-group-anagrams](https://github.com/thebhupesh/leetcode-solutions/tree/master/0049-group-anagrams) |
 | [0053-maximum-subarray](https://github.com/thebhupesh/leetcode-solutions/tree/master/0053-maximum-subarray) |
 | [0054-spiral-matrix](https://github.com/thebhupesh/leetcode-solutions/tree/master/0054-spiral-matrix) |
+| [0055-jump-game](https://github.com/thebhupesh/leetcode-solutions/tree/master/0055-jump-game) |
 | [0056-merge-intervals](https://github.com/thebhupesh/leetcode-solutions/tree/master/0056-merge-intervals) |
 | [0057-insert-interval](https://github.com/thebhupesh/leetcode-solutions/tree/master/0057-insert-interval) |
 | [0074-search-a-2d-matrix](https://github.com/thebhupesh/leetcode-solutions/tree/master/0074-search-a-2d-matrix) |
@@ -155,6 +156,7 @@ A collection of LeetCode questions.
 | [0022-generate-parentheses](https://github.com/thebhupesh/leetcode-solutions/tree/master/0022-generate-parentheses) |
 | [0042-trapping-rain-water](https://github.com/thebhupesh/leetcode-solutions/tree/master/0042-trapping-rain-water) |
 | [0053-maximum-subarray](https://github.com/thebhupesh/leetcode-solutions/tree/master/0053-maximum-subarray) |
+| [0055-jump-game](https://github.com/thebhupesh/leetcode-solutions/tree/master/0055-jump-game) |
 | [0062-unique-paths](https://github.com/thebhupesh/leetcode-solutions/tree/master/0062-unique-paths) |
 | [0070-climbing-stairs](https://github.com/thebhupesh/leetcode-solutions/tree/master/0070-climbing-stairs) |
 | [0115-distinct-subsequences](https://github.com/thebhupesh/leetcode-solutions/tree/master/0115-distinct-subsequences) |
@@ -431,6 +433,7 @@ A collection of LeetCode questions.
 |  |
 | ------- |
 | [0011-container-with-most-water](https://github.com/thebhupesh/leetcode-solutions/tree/master/0011-container-with-most-water) |
+| [0055-jump-game](https://github.com/thebhupesh/leetcode-solutions/tree/master/0055-jump-game) |
 | [0134-gas-station](https://github.com/thebhupesh/leetcode-solutions/tree/master/0134-gas-station) |
 | [0409-longest-palindrome](https://github.com/thebhupesh/leetcode-solutions/tree/master/0409-longest-palindrome) |
 ## Union-Find

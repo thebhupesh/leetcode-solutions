@@ -33,6 +33,7 @@ A collection of LeetCode questions.
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/thebhupesh/leetcode-solutions/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/thebhupesh/leetcode-solutions/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0169-majority-element](https://github.com/thebhupesh/leetcode-solutions/tree/master/0169-majority-element) |
+| [0198-house-robber](https://github.com/thebhupesh/leetcode-solutions/tree/master/0198-house-robber) |
 | [0200-number-of-islands](https://github.com/thebhupesh/leetcode-solutions/tree/master/0200-number-of-islands) |
 | [0209-minimum-size-subarray-sum](https://github.com/thebhupesh/leetcode-solutions/tree/master/0209-minimum-size-subarray-sum) |
 | [0215-kth-largest-element-in-an-array](https://github.com/thebhupesh/leetcode-solutions/tree/master/0215-kth-largest-element-in-an-array) |
@@ -157,6 +158,7 @@ A collection of LeetCode questions.
 | [0070-climbing-stairs](https://github.com/thebhupesh/leetcode-solutions/tree/master/0070-climbing-stairs) |
 | [0115-distinct-subsequences](https://github.com/thebhupesh/leetcode-solutions/tree/master/0115-distinct-subsequences) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/thebhupesh/leetcode-solutions/tree/master/0121-best-time-to-buy-and-sell-stock) |
+| [0198-house-robber](https://github.com/thebhupesh/leetcode-solutions/tree/master/0198-house-robber) |
 | [0322-coin-change](https://github.com/thebhupesh/leetcode-solutions/tree/master/0322-coin-change) |
 | [0392-is-subsequence](https://github.com/thebhupesh/leetcode-solutions/tree/master/0392-is-subsequence) |
 | [0509-fibonacci-number](https://github.com/thebhupesh/leetcode-solutions/tree/master/0509-fibonacci-number) |

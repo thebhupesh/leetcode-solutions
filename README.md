@@ -59,6 +59,7 @@ A collection of LeetCode questions.
 | [0994-rotting-oranges](https://github.com/thebhupesh/leetcode-solutions/tree/master/0994-rotting-oranges) |
 | [1004-max-consecutive-ones-iii](https://github.com/thebhupesh/leetcode-solutions/tree/master/1004-max-consecutive-ones-iii) |
 | [1046-last-stone-weight](https://github.com/thebhupesh/leetcode-solutions/tree/master/1046-last-stone-weight) |
+| [1584-min-cost-to-connect-all-points](https://github.com/thebhupesh/leetcode-solutions/tree/master/1584-min-cost-to-connect-all-points) |
 | [2239-find-closest-number-to-zero](https://github.com/thebhupesh/leetcode-solutions/tree/master/2239-find-closest-number-to-zero) |
 | [3483-unique-3-digit-even-numbers](https://github.com/thebhupesh/leetcode-solutions/tree/master/3483-unique-3-digit-even-numbers) |
 | [3550-smallest-index-with-digit-sum-equal-to-index](https://github.com/thebhupesh/leetcode-solutions/tree/master/3550-smallest-index-with-digit-sum-equal-to-index) |
@@ -410,6 +411,7 @@ A collection of LeetCode questions.
 | [0133-clone-graph](https://github.com/thebhupesh/leetcode-solutions/tree/master/0133-clone-graph) |
 | [0207-course-schedule](https://github.com/thebhupesh/leetcode-solutions/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/thebhupesh/leetcode-solutions/tree/master/0210-course-schedule-ii) |
+| [1584-min-cost-to-connect-all-points](https://github.com/thebhupesh/leetcode-solutions/tree/master/1584-min-cost-to-connect-all-points) |
 | [1971-find-if-path-exists-in-graph](https://github.com/thebhupesh/leetcode-solutions/tree/master/1971-find-if-path-exists-in-graph) |
 ## Topological Sort
 |  |
@@ -447,6 +449,7 @@ A collection of LeetCode questions.
 | [0128-longest-consecutive-sequence](https://github.com/thebhupesh/leetcode-solutions/tree/master/0128-longest-consecutive-sequence) |
 | [0200-number-of-islands](https://github.com/thebhupesh/leetcode-solutions/tree/master/0200-number-of-islands) |
 | [0695-max-area-of-island](https://github.com/thebhupesh/leetcode-solutions/tree/master/0695-max-area-of-island) |
+| [1584-min-cost-to-connect-all-points](https://github.com/thebhupesh/leetcode-solutions/tree/master/1584-min-cost-to-connect-all-points) |
 | [1971-find-if-path-exists-in-graph](https://github.com/thebhupesh/leetcode-solutions/tree/master/1971-find-if-path-exists-in-graph) |
 ## Backtracking
 |  |
@@ -562,4 +565,20 @@ A collection of LeetCode questions.
 |  |
 | ------- |
 | [1143-longest-common-subsequence](https://github.com/thebhupesh/leetcode-solutions/tree/master/1143-longest-common-subsequence) |
+## Minimum Spanning Tree
+|  |
+| ------- |
+| [1584-min-cost-to-connect-all-points](https://github.com/thebhupesh/leetcode-solutions/tree/master/1584-min-cost-to-connect-all-points) |
+## Prim's Algorithm
+|  |
+| ------- |
+| [1584-min-cost-to-connect-all-points](https://github.com/thebhupesh/leetcode-solutions/tree/master/1584-min-cost-to-connect-all-points) |
+## Kruskal's Algorithm
+|  |
+| ------- |
+| [1584-min-cost-to-connect-all-points](https://github.com/thebhupesh/leetcode-solutions/tree/master/1584-min-cost-to-connect-all-points) |
+## Borůvka's Algorithm
+|  |
+| ------- |
+| [1584-min-cost-to-connect-all-points](https://github.com/thebhupesh/leetcode-solutions/tree/master/1584-min-cost-to-connect-all-points) |
 <!---LeetCode Topics End-->

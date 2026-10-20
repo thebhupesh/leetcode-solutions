@@ -20,11 +20,13 @@ class Solution {
             currDist = Integer.MAX_VALUE;
 
             for(int i=0; i<len; i++) {
-                distance[i] = Math.min(distance[i], Math.abs(points[i][0]-points[tempPoint][0]) + Math.abs(points[i][1]-points[tempPoint][1]));
+                if(!mst[i]) {
+                    distance[i] = Math.min(distance[i], Math.abs(points[i][0]-points[tempPoint][0]) + Math.abs(points[i][1]-points[tempPoint][1]));
 
-                if(!mst[i] && distance[i] < currDist) {
-                    currDist = distance[i];
-                    currPoint = i;
+                    if(distance[i] < currDist) {
+                        currDist = distance[i];
+                        currPoint = i;
+                    }
                 }
             }
         }

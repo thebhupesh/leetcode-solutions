@@ -231,6 +231,7 @@ A collection of LeetCode questions.
 | [0572-subtree-of-another-tree](https://github.com/thebhupesh/leetcode-solutions/tree/master/0572-subtree-of-another-tree) |
 | [0695-max-area-of-island](https://github.com/thebhupesh/leetcode-solutions/tree/master/0695-max-area-of-island) |
 | [0733-flood-fill](https://github.com/thebhupesh/leetcode-solutions/tree/master/0733-flood-fill) |
+| [0743-network-delay-time](https://github.com/thebhupesh/leetcode-solutions/tree/master/0743-network-delay-time) |
 | [1971-find-if-path-exists-in-graph](https://github.com/thebhupesh/leetcode-solutions/tree/master/1971-find-if-path-exists-in-graph) |
 | [2265-count-nodes-equal-to-average-of-subtree](https://github.com/thebhupesh/leetcode-solutions/tree/master/2265-count-nodes-equal-to-average-of-subtree) |
 ## Breadth-First Search
@@ -252,6 +253,7 @@ A collection of LeetCode questions.
 | [0542-01-matrix](https://github.com/thebhupesh/leetcode-solutions/tree/master/0542-01-matrix) |
 | [0695-max-area-of-island](https://github.com/thebhupesh/leetcode-solutions/tree/master/0695-max-area-of-island) |
 | [0733-flood-fill](https://github.com/thebhupesh/leetcode-solutions/tree/master/0733-flood-fill) |
+| [0743-network-delay-time](https://github.com/thebhupesh/leetcode-solutions/tree/master/0743-network-delay-time) |
 | [0994-rotting-oranges](https://github.com/thebhupesh/leetcode-solutions/tree/master/0994-rotting-oranges) |
 | [1971-find-if-path-exists-in-graph](https://github.com/thebhupesh/leetcode-solutions/tree/master/1971-find-if-path-exists-in-graph) |
 | [3568-minimum-moves-to-clean-the-classroom](https://github.com/thebhupesh/leetcode-solutions/tree/master/3568-minimum-moves-to-clean-the-classroom) |
@@ -365,6 +367,7 @@ A collection of LeetCode questions.
 | [0023-merge-k-sorted-lists](https://github.com/thebhupesh/leetcode-solutions/tree/master/0023-merge-k-sorted-lists) |
 | [0215-kth-largest-element-in-an-array](https://github.com/thebhupesh/leetcode-solutions/tree/master/0215-kth-largest-element-in-an-array) |
 | [0347-top-k-frequent-elements](https://github.com/thebhupesh/leetcode-solutions/tree/master/0347-top-k-frequent-elements) |
+| [0743-network-delay-time](https://github.com/thebhupesh/leetcode-solutions/tree/master/0743-network-delay-time) |
 | [0973-k-closest-points-to-origin](https://github.com/thebhupesh/leetcode-solutions/tree/master/0973-k-closest-points-to-origin) |
 | [1046-last-stone-weight](https://github.com/thebhupesh/leetcode-solutions/tree/master/1046-last-stone-weight) |
 ## Quickselect
@@ -411,6 +414,7 @@ A collection of LeetCode questions.
 | [0133-clone-graph](https://github.com/thebhupesh/leetcode-solutions/tree/master/0133-clone-graph) |
 | [0207-course-schedule](https://github.com/thebhupesh/leetcode-solutions/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/thebhupesh/leetcode-solutions/tree/master/0210-course-schedule-ii) |
+| [0743-network-delay-time](https://github.com/thebhupesh/leetcode-solutions/tree/master/0743-network-delay-time) |
 | [1584-min-cost-to-connect-all-points](https://github.com/thebhupesh/leetcode-solutions/tree/master/1584-min-cost-to-connect-all-points) |
 | [1971-find-if-path-exists-in-graph](https://github.com/thebhupesh/leetcode-solutions/tree/master/1971-find-if-path-exists-in-graph) |
 ## Topological Sort
@@ -581,4 +585,12 @@ A collection of LeetCode questions.
 |  |
 | ------- |
 | [1584-min-cost-to-connect-all-points](https://github.com/thebhupesh/leetcode-solutions/tree/master/1584-min-cost-to-connect-all-points) |
+## Shortest Path
+|  |
+| ------- |
+| [0743-network-delay-time](https://github.com/thebhupesh/leetcode-solutions/tree/master/0743-network-delay-time) |
+## Dijkstra's Algorithm
+|  |
+| ------- |
+| [0743-network-delay-time](https://github.com/thebhupesh/leetcode-solutions/tree/master/0743-network-delay-time) |
 <!---LeetCode Topics End-->

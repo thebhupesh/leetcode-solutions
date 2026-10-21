@@ -1,48 +1,30 @@
 class Solution {
     public String addBinary(String a, String b) {
-        int carry = 0;
-        StringBuilder s = new StringBuilder();
-        int aLen = a.length(), bLen = b.length();
-        char[] aStr = null, bStr = null;
-        
-        if(aLen >= bLen) {
-            aStr = a.toCharArray();
-            bStr = b.toCharArray();
-        } else {
-            aStr = b.toCharArray();
-            bStr = a.toCharArray();
+        boolean carry = false;
+        StringBuilder res = new StringBuilder();
 
-            aLen = aStr.length;
-            bLen = bStr.length;
-        }
+        int aPos = a.length()-1;
+        int bPos = b.length()-1;
 
-        while(aLen > 0 || bLen > 0) {
-            int curr = carry;
-            
-            if(--aLen >= 0) {
-                if(aStr[aLen] == '1' && curr == 1) {
-                    curr = 0;
-                } else if(aStr[aLen] == '1' && curr == 0) {
-                    curr = 1;
-                } else if(aStr[aLen] == '0' && curr == 1) {
-                    carry = 0;
-                }
+        while(aPos >= 0 || bPos >= 0) {
+            int ones = (carry) ? 1 : 0;
+
+            if(aPos >= 0) {
+                if(a.charAt(aPos--) == '1') ones++;
+            }
+            if(bPos >= 0) {
+                if(b.charAt(bPos--) == '1') ones++;
             }
 
-            if(--bLen >= 0) {
-                if(bStr[bLen] == '1' && curr == 1) {
-                    curr = 0;
-                    carry = 1;
-                } else if(bStr[bLen] == '1' && curr == 0) {
-                    curr = 1;
-                }
-            }
+            if(ones%2 == 0) res.append(0);
+            else res.append(1);
 
-            s.append(curr);
+            if(ones > 1) carry = true;
+            else carry = false;
         }
 
-        if(carry == 1) s.append(carry);
+        if(carry) res.append(1);
 
-        return s.reverse().toString();
+        return res.reverse().toString();
     }
 }

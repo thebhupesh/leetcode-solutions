@@ -1,8 +1,8 @@
 class Solution {
     public int networkDelayTime(int[][] times, int n, int k) {
-        Map<Integer,Set<int[]>> map = new HashMap<>();
+        Map<Integer,List<int[]>> map = new HashMap<>();
         for(int[] val: times) {
-            Set<int[]> curr = map.getOrDefault(val[0],new HashSet<>());
+            List<int[]> curr = map.getOrDefault(val[0],new ArrayList<>());
             curr.add(new int[]{val[1],val[2]});
             map.put(val[0],curr);
         }
@@ -21,7 +21,9 @@ class Solution {
             res = Math.max(res,curr[1]);
             remaining--;
 
-            Set<int[]> adj = map.getOrDefault(curr[0],new HashSet<>());
+            List<int[]> adj = map.get(curr[0]);
+            if(adj == null) continue;
+            
             for(int[] val : adj) {
                 if(!processed[val[0]]) q.offer(new int[]{val[0],val[1]+curr[1]});
             }

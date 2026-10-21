@@ -30,6 +30,7 @@ A collection of LeetCode questions.
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/thebhupesh/leetcode-solutions/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0128-longest-consecutive-sequence](https://github.com/thebhupesh/leetcode-solutions/tree/master/0128-longest-consecutive-sequence) |
 | [0134-gas-station](https://github.com/thebhupesh/leetcode-solutions/tree/master/0134-gas-station) |
+| [0136-single-number](https://github.com/thebhupesh/leetcode-solutions/tree/master/0136-single-number) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/thebhupesh/leetcode-solutions/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/thebhupesh/leetcode-solutions/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/thebhupesh/leetcode-solutions/tree/master/0167-two-sum-ii-input-array-is-sorted) |
@@ -472,6 +473,7 @@ A collection of LeetCode questions.
 | ------- |
 | [0067-add-binary](https://github.com/thebhupesh/leetcode-solutions/tree/master/0067-add-binary) |
 | [0078-subsets](https://github.com/thebhupesh/leetcode-solutions/tree/master/0078-subsets) |
+| [0136-single-number](https://github.com/thebhupesh/leetcode-solutions/tree/master/0136-single-number) |
 | [3568-minimum-moves-to-clean-the-classroom](https://github.com/thebhupesh/leetcode-solutions/tree/master/3568-minimum-moves-to-clean-the-classroom) |
 ## Simulation
 |  |

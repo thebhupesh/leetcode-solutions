@@ -15,35 +15,25 @@
  */
 class Solution {
     public List<Double> averageOfLevels(TreeNode root) {
-        double sum = 0;
-        int count = 0;
-        int level = 1;
-
-        Deque<Pair<TreeNode,Integer>> q = new ArrayDeque<>();
+        Deque<TreeNode> q = new ArrayDeque<>();
         List<Double> res = new ArrayList<>();
 
-        q.offer(new Pair<>(root,1));
+        q.offer(root);
 
         while(!q.isEmpty()) {
-            Pair<TreeNode,Integer> curr = q.poll();
-            TreeNode node = curr.getKey();
-            int lvl = curr.getValue();
+            double sum = 0;
+            int len = q.size();
 
-            if(lvl != level) {
-                res.add(sum/count);
-                level = lvl;
-                count = 1;
-                sum = node.val;
-            } else {
-                sum += node.val;
-                count++;
+            for(int i=0; i<len; i++) {
+                TreeNode curr = q.poll();
+                sum += curr.val;
+
+                if(curr.left != null) q.offer(curr.left);
+                if(curr.right != null) q.offer(curr.right);
             }
 
-            if(node.left != null) q.offer(new Pair<>(node.left,lvl+1));
-            if(node.right != null) q.offer(new Pair<>(node.right,lvl+1));
+            res.add(sum/len);
         }
-
-        res.add(sum/count);
 
         return res;
     }

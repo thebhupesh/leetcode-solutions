@@ -10,20 +10,9 @@
  */
 class Solution {
     private int gcd(int a, int b) {
-        int shift = Integer.numberOfTrailingZeros(a | b);
-        a >>>= Integer.numberOfTrailingZeros(a);
+        if(b == 0) return a;
 
-        do {
-            b >>>= Integer.numberOfTrailingZeros(b);
-            if (a > b) {
-                int temp = a;
-                a = b;
-                b = temp;
-            }
-            b -= a;
-        } while (b != 0);
-
-        return a << shift;
+        return gcd(b,a%b);
     }
     public ListNode insertGreatestCommonDivisors(ListNode head) {
         ListNode prev = head;

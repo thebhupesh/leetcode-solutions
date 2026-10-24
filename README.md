@@ -10,6 +10,7 @@ A collection of LeetCode questions.
 | [0011-container-with-most-water](https://github.com/thebhupesh/leetcode-solutions/tree/master/0011-container-with-most-water) |
 | [0014-longest-common-prefix](https://github.com/thebhupesh/leetcode-solutions/tree/master/0014-longest-common-prefix) |
 | [0015-3sum](https://github.com/thebhupesh/leetcode-solutions/tree/master/0015-3sum) |
+| [0026-remove-duplicates-from-sorted-array](https://github.com/thebhupesh/leetcode-solutions/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0033-search-in-rotated-sorted-array](https://github.com/thebhupesh/leetcode-solutions/tree/master/0033-search-in-rotated-sorted-array) |
 | [0035-search-insert-position](https://github.com/thebhupesh/leetcode-solutions/tree/master/0035-search-insert-position) |
 | [0036-valid-sudoku](https://github.com/thebhupesh/leetcode-solutions/tree/master/0036-valid-sudoku) |
@@ -183,6 +184,7 @@ A collection of LeetCode questions.
 | [0011-container-with-most-water](https://github.com/thebhupesh/leetcode-solutions/tree/master/0011-container-with-most-water) |
 | [0015-3sum](https://github.com/thebhupesh/leetcode-solutions/tree/master/0015-3sum) |
 | [0019-remove-nth-node-from-end-of-list](https://github.com/thebhupesh/leetcode-solutions/tree/master/0019-remove-nth-node-from-end-of-list) |
+| [0026-remove-duplicates-from-sorted-array](https://github.com/thebhupesh/leetcode-solutions/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0042-trapping-rain-water](https://github.com/thebhupesh/leetcode-solutions/tree/master/0042-trapping-rain-water) |
 | [0075-sort-colors](https://github.com/thebhupesh/leetcode-solutions/tree/master/0075-sort-colors) |
 | [0125-valid-palindrome](https://github.com/thebhupesh/leetcode-solutions/tree/master/0125-valid-palindrome) |

@@ -125,6 +125,7 @@ A collection of LeetCode questions.
 | [0504-base-7](https://github.com/thebhupesh/leetcode-solutions/tree/master/0504-base-7) |
 | [0567-permutation-in-string](https://github.com/thebhupesh/leetcode-solutions/tree/master/0567-permutation-in-string) |
 | [0771-jewels-and-stones](https://github.com/thebhupesh/leetcode-solutions/tree/master/0771-jewels-and-stones) |
+| [0844-backspace-string-compare](https://github.com/thebhupesh/leetcode-solutions/tree/master/0844-backspace-string-compare) |
 | [0981-time-based-key-value-store](https://github.com/thebhupesh/leetcode-solutions/tree/master/0981-time-based-key-value-store) |
 | [1143-longest-common-subsequence](https://github.com/thebhupesh/leetcode-solutions/tree/master/1143-longest-common-subsequence) |
 | [1189-maximum-number-of-balloons](https://github.com/thebhupesh/leetcode-solutions/tree/master/1189-maximum-number-of-balloons) |
@@ -140,6 +141,7 @@ A collection of LeetCode questions.
 | [0232-implement-queue-using-stacks](https://github.com/thebhupesh/leetcode-solutions/tree/master/0232-implement-queue-using-stacks) |
 | [0682-baseball-game](https://github.com/thebhupesh/leetcode-solutions/tree/master/0682-baseball-game) |
 | [0739-daily-temperatures](https://github.com/thebhupesh/leetcode-solutions/tree/master/0739-daily-temperatures) |
+| [0844-backspace-string-compare](https://github.com/thebhupesh/leetcode-solutions/tree/master/0844-backspace-string-compare) |
 ## Linked List
 |  |
 | ------- |
@@ -195,6 +197,7 @@ A collection of LeetCode questions.
 | [0344-reverse-string](https://github.com/thebhupesh/leetcode-solutions/tree/master/0344-reverse-string) |
 | [0392-is-subsequence](https://github.com/thebhupesh/leetcode-solutions/tree/master/0392-is-subsequence) |
 | [0567-permutation-in-string](https://github.com/thebhupesh/leetcode-solutions/tree/master/0567-permutation-in-string) |
+| [0844-backspace-string-compare](https://github.com/thebhupesh/leetcode-solutions/tree/master/0844-backspace-string-compare) |
 | [0876-middle-of-the-linked-list](https://github.com/thebhupesh/leetcode-solutions/tree/master/0876-middle-of-the-linked-list) |
 | [0977-squares-of-a-sorted-array](https://github.com/thebhupesh/leetcode-solutions/tree/master/0977-squares-of-a-sorted-array) |
 | [1768-merge-strings-alternately](https://github.com/thebhupesh/leetcode-solutions/tree/master/1768-merge-strings-alternately) |
@@ -497,6 +500,7 @@ A collection of LeetCode questions.
 | [0054-spiral-matrix](https://github.com/thebhupesh/leetcode-solutions/tree/master/0054-spiral-matrix) |
 | [0067-add-binary](https://github.com/thebhupesh/leetcode-solutions/tree/master/0067-add-binary) |
 | [0682-baseball-game](https://github.com/thebhupesh/leetcode-solutions/tree/master/0682-baseball-game) |
+| [0844-backspace-string-compare](https://github.com/thebhupesh/leetcode-solutions/tree/master/0844-backspace-string-compare) |
 | [3498-reverse-degree-of-a-string](https://github.com/thebhupesh/leetcode-solutions/tree/master/3498-reverse-degree-of-a-string) |
 ## Quicksort
 |  |

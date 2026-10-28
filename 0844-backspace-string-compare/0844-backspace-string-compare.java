@@ -1,5 +1,5 @@
 class Solution {
-    private StringBuilder process(String s) {
+    private String process(String s) {
         StringBuilder sb = new StringBuilder();
 
         for(char ch : s.toCharArray()) {
@@ -10,10 +10,10 @@ class Solution {
             }
         }
 
-        return sb;
+        return sb.toString();
     }
 
     public boolean backspaceCompare(String s, String t) {
-        return process(s).compareTo(process(t)) == 0;
+        return process(s).equals(process(t));
     }
 }

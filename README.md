@@ -29,6 +29,7 @@ A collection of LeetCode questions.
 | [0075-sort-colors](https://github.com/thebhupesh/leetcode-solutions/tree/master/0075-sort-colors) |
 | [0078-subsets](https://github.com/thebhupesh/leetcode-solutions/tree/master/0078-subsets) |
 | [0079-word-search](https://github.com/thebhupesh/leetcode-solutions/tree/master/0079-word-search) |
+| [0084-largest-rectangle-in-histogram](https://github.com/thebhupesh/leetcode-solutions/tree/master/0084-largest-rectangle-in-histogram) |
 | [0088-merge-sorted-array](https://github.com/thebhupesh/leetcode-solutions/tree/master/0088-merge-sorted-array) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/thebhupesh/leetcode-solutions/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0128-longest-consecutive-sequence](https://github.com/thebhupesh/leetcode-solutions/tree/master/0128-longest-consecutive-sequence) |
@@ -136,6 +137,7 @@ A collection of LeetCode questions.
 | ------- |
 | [0020-valid-parentheses](https://github.com/thebhupesh/leetcode-solutions/tree/master/0020-valid-parentheses) |
 | [0042-trapping-rain-water](https://github.com/thebhupesh/leetcode-solutions/tree/master/0042-trapping-rain-water) |
+| [0084-largest-rectangle-in-histogram](https://github.com/thebhupesh/leetcode-solutions/tree/master/0084-largest-rectangle-in-histogram) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/thebhupesh/leetcode-solutions/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0155-min-stack](https://github.com/thebhupesh/leetcode-solutions/tree/master/0155-min-stack) |
 | [0232-implement-queue-using-stacks](https://github.com/thebhupesh/leetcode-solutions/tree/master/0232-implement-queue-using-stacks) |
@@ -548,6 +550,7 @@ A collection of LeetCode questions.
 |  |
 | ------- |
 | [0042-trapping-rain-water](https://github.com/thebhupesh/leetcode-solutions/tree/master/0042-trapping-rain-water) |
+| [0084-largest-rectangle-in-histogram](https://github.com/thebhupesh/leetcode-solutions/tree/master/0084-largest-rectangle-in-histogram) |
 | [0739-daily-temperatures](https://github.com/thebhupesh/leetcode-solutions/tree/master/0739-daily-temperatures) |
 ## Enumeration
 |  |
@@ -621,4 +624,8 @@ A collection of LeetCode questions.
 |  |
 | ------- |
 | [2807-insert-greatest-common-divisors-in-linked-list](https://github.com/thebhupesh/leetcode-solutions/tree/master/2807-insert-greatest-common-divisors-in-linked-list) |
+## Range Minimum/Maximum Query
+|  |
+| ------- |
+| [0084-largest-rectangle-in-histogram](https://github.com/thebhupesh/leetcode-solutions/tree/master/0084-largest-rectangle-in-histogram) |
 <!---LeetCode Topics End-->

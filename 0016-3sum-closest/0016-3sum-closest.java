@@ -19,6 +19,8 @@ class Solution {
                 else if(sum < target) p1++;
                 else break;
             }
+
+            if(res == target) break;
         }
 
         return res;

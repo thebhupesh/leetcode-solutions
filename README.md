@@ -10,6 +10,7 @@ A collection of LeetCode questions.
 | [0011-container-with-most-water](https://github.com/thebhupesh/leetcode-solutions/tree/master/0011-container-with-most-water) |
 | [0014-longest-common-prefix](https://github.com/thebhupesh/leetcode-solutions/tree/master/0014-longest-common-prefix) |
 | [0015-3sum](https://github.com/thebhupesh/leetcode-solutions/tree/master/0015-3sum) |
+| [0016-3sum-closest](https://github.com/thebhupesh/leetcode-solutions/tree/master/0016-3sum-closest) |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/thebhupesh/leetcode-solutions/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0033-search-in-rotated-sorted-array](https://github.com/thebhupesh/leetcode-solutions/tree/master/0033-search-in-rotated-sorted-array) |
 | [0035-search-insert-position](https://github.com/thebhupesh/leetcode-solutions/tree/master/0035-search-insert-position) |
@@ -188,6 +189,7 @@ A collection of LeetCode questions.
 | ------- |
 | [0011-container-with-most-water](https://github.com/thebhupesh/leetcode-solutions/tree/master/0011-container-with-most-water) |
 | [0015-3sum](https://github.com/thebhupesh/leetcode-solutions/tree/master/0015-3sum) |
+| [0016-3sum-closest](https://github.com/thebhupesh/leetcode-solutions/tree/master/0016-3sum-closest) |
 | [0019-remove-nth-node-from-end-of-list](https://github.com/thebhupesh/leetcode-solutions/tree/master/0019-remove-nth-node-from-end-of-list) |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/thebhupesh/leetcode-solutions/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0042-trapping-rain-water](https://github.com/thebhupesh/leetcode-solutions/tree/master/0042-trapping-rain-water) |
@@ -297,6 +299,7 @@ A collection of LeetCode questions.
 |  |
 | ------- |
 | [0015-3sum](https://github.com/thebhupesh/leetcode-solutions/tree/master/0015-3sum) |
+| [0016-3sum-closest](https://github.com/thebhupesh/leetcode-solutions/tree/master/0016-3sum-closest) |
 | [0049-group-anagrams](https://github.com/thebhupesh/leetcode-solutions/tree/master/0049-group-anagrams) |
 | [0056-merge-intervals](https://github.com/thebhupesh/leetcode-solutions/tree/master/0056-merge-intervals) |
 | [0075-sort-colors](https://github.com/thebhupesh/leetcode-solutions/tree/master/0075-sort-colors) |

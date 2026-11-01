@@ -3,14 +3,11 @@ class Solution {
         Arrays.sort(citations);
 
         int len = citations.length;
-        int res = 0;
 
         for(int i=0; i<len; i++) {
-            if(citations[i] <= len-i) {
-                res = citations[i];
-            } else res = Math.max(res,len-i);
+            if(citations[i] >= (len-i)) return len-i;
         }
 
-        return res;
+        return 0;
     }
 }

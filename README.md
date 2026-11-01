@@ -50,6 +50,7 @@ A collection of LeetCode questions.
 | [0217-contains-duplicate](https://github.com/thebhupesh/leetcode-solutions/tree/master/0217-contains-duplicate) |
 | [0228-summary-ranges](https://github.com/thebhupesh/leetcode-solutions/tree/master/0228-summary-ranges) |
 | [0238-product-of-array-except-self](https://github.com/thebhupesh/leetcode-solutions/tree/master/0238-product-of-array-except-self) |
+| [0274-h-index](https://github.com/thebhupesh/leetcode-solutions/tree/master/0274-h-index) |
 | [0300-longest-increasing-subsequence](https://github.com/thebhupesh/leetcode-solutions/tree/master/0300-longest-increasing-subsequence) |
 | [0322-coin-change](https://github.com/thebhupesh/leetcode-solutions/tree/master/0322-coin-change) |
 | [0347-top-k-frequent-elements](https://github.com/thebhupesh/leetcode-solutions/tree/master/0347-top-k-frequent-elements) |
@@ -315,6 +316,7 @@ A collection of LeetCode questions.
 | [0215-kth-largest-element-in-an-array](https://github.com/thebhupesh/leetcode-solutions/tree/master/0215-kth-largest-element-in-an-array) |
 | [0217-contains-duplicate](https://github.com/thebhupesh/leetcode-solutions/tree/master/0217-contains-duplicate) |
 | [0242-valid-anagram](https://github.com/thebhupesh/leetcode-solutions/tree/master/0242-valid-anagram) |
+| [0274-h-index](https://github.com/thebhupesh/leetcode-solutions/tree/master/0274-h-index) |
 | [0347-top-k-frequent-elements](https://github.com/thebhupesh/leetcode-solutions/tree/master/0347-top-k-frequent-elements) |
 | [0973-k-closest-points-to-origin](https://github.com/thebhupesh/leetcode-solutions/tree/master/0973-k-closest-points-to-origin) |
 | [0977-squares-of-a-sorted-array](https://github.com/thebhupesh/leetcode-solutions/tree/master/0977-squares-of-a-sorted-array) |
@@ -639,4 +641,8 @@ A collection of LeetCode questions.
 |  |
 | ------- |
 | [0084-largest-rectangle-in-histogram](https://github.com/thebhupesh/leetcode-solutions/tree/master/0084-largest-rectangle-in-histogram) |
+## Counting Sort
+|  |
+| ------- |
+| [0274-h-index](https://github.com/thebhupesh/leetcode-solutions/tree/master/0274-h-index) |
 <!---LeetCode Topics End-->

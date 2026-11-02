@@ -6,15 +6,9 @@ class Solution {
             int curr = i;
             int cnt = 32;
 
-            while(cnt > 0) {
-                int temp = curr >> 1;
-                temp = temp << 1;
-                
-                if((curr^temp) == 1) res[i]++;
-
-                curr = temp >> 1;
-
-                cnt--;
+            while(cnt-- > 0) {
+                if((curr^((curr >> 1) << 1)) == 1) res[i]++;
+                curr = curr >> 1;
             }
         }
 

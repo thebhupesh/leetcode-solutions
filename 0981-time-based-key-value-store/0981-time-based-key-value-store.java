@@ -19,9 +19,10 @@ class TimeMap {
 
         while(left <= right) {
             int mid = left + (right-left)/2;
+            Pair<Integer,String> curr = values.get(mid);
 
-            if(values.get(mid).getKey() <= timestamp) {
-                res = values.get(mid).getValue();
+            if(curr.getKey() <= timestamp) {
+                res = curr.getValue();
                 left = mid+1;
             } else {
                 right = mid-1;

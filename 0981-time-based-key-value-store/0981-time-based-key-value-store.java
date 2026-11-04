@@ -25,7 +25,7 @@ class TimeMap {
     
     public String get(String key, int timestamp) {
         if(!latestTime.containsKey(key)) return "";
-        return (timeMap.containsKey(timestamp)) ? timeMap.get(timestamp).get(key) : timeMap.get(latestTime.get(key)).get(key);
+        return (timeMap.containsKey(timestamp) && timeMap.get(timestamp).containsKey(key)) ? timeMap.get(timestamp).get(key) : timeMap.get(latestTime.get(key)).get(key);
     }
 }
 

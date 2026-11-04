@@ -1,23 +1,31 @@
 class TimeMap {
-    HashMap<String,TreeMap> timeMap;
+    Map<Integer,Map<String,String>> timeMap;
+    Map<String,Integer> latestTime;
 
     public TimeMap() {
         timeMap = new HashMap<>();
+        latestTime = new HashMap<>();
     }
     
     public void set(String key, String value, int timestamp) {
-        TreeMap<Integer,String> values = timeMap.getOrDefault(key, new TreeMap<>());
-        values.put(timestamp,value);
-        timeMap.put(key,values);
+        int time = latestTime.getOrDefault(key,0);
+        String val = (time == 0) ? "" : timeMap.get(time).get(key);
+
+        Map<String,String> map = timeMap.getOrDefault(timestamp,new HashMap<>());
+        map.put(key,value);
+        timeMap.put(timestamp,map);
+        latestTime.put(key,timestamp);
+
+        for(time = time+1; time < timestamp; time++) {
+            map = timeMap.getOrDefault(time,new HashMap<>());
+            map.put(key,val);
+            timeMap.put(time,map);
+        }
     }
     
     public String get(String key, int timestamp) {
-        TreeMap<Integer,String> values = timeMap.getOrDefault(key, new TreeMap<>());
-        Integer time = values.floorKey(timestamp);
-
-        if(time == null) return "";
-
-        return values.get(time);
+        if(!latestTime.containsKey(key)) return "";
+        return (timeMap.containsKey(timestamp)) ? timeMap.get(timestamp).get(key) : timeMap.get(latestTime.get(key)).get(key);
     }
 }
 

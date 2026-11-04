@@ -1,31 +1,34 @@
 class TimeMap {
-    Map<Integer,Map<String,String>> timeMap;
-    Map<String,Integer> latestTime;
+    Map<String,List<Pair<Integer,String>>> timeMap;
 
     public TimeMap() {
         timeMap = new HashMap<>();
-        latestTime = new HashMap<>();
     }
     
     public void set(String key, String value, int timestamp) {
-        int time = latestTime.getOrDefault(key,0);
-        String val = (time == 0) ? "" : timeMap.get(time).get(key);
-
-        Map<String,String> map = timeMap.getOrDefault(timestamp,new HashMap<>());
-        map.put(key,value);
-        timeMap.put(timestamp,map);
-        latestTime.put(key,timestamp);
-
-        for(time = time+1; time < timestamp; time++) {
-            map = timeMap.getOrDefault(time,new HashMap<>());
-            map.put(key,val);
-            timeMap.put(time,map);
-        }
+        timeMap.computeIfAbsent(key,k -> new ArrayList<>()).add(new Pair(timestamp,value));
     }
     
     public String get(String key, int timestamp) {
-        if(!latestTime.containsKey(key)) return "";
-        return (timeMap.containsKey(timestamp) && timeMap.get(timestamp).containsKey(key)) ? timeMap.get(timestamp).get(key) : timeMap.get(latestTime.get(key)).get(key);
+        List<Pair<Integer,String>> values = timeMap.get(key);
+        if(values == null) return "";
+
+        int left = 0;
+        int right = values.size()-1;
+        String res = "";
+
+        while(left <= right) {
+            int mid = left + (right-left)/2;
+
+            if(values.get(mid).getKey() <= timestamp) {
+                res = values.get(mid).getValue();
+                left = mid+1;
+            } else {
+                right = mid-1;
+            }
+        }
+
+        return res;
     }
 }
 

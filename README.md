@@ -39,6 +39,7 @@ A collection of LeetCode questions.
 | [0128-longest-consecutive-sequence](https://github.com/thebhupesh/leetcode-solutions/tree/master/0128-longest-consecutive-sequence) |
 | [0134-gas-station](https://github.com/thebhupesh/leetcode-solutions/tree/master/0134-gas-station) |
 | [0136-single-number](https://github.com/thebhupesh/leetcode-solutions/tree/master/0136-single-number) |
+| [0139-word-break](https://github.com/thebhupesh/leetcode-solutions/tree/master/0139-word-break) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/thebhupesh/leetcode-solutions/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/thebhupesh/leetcode-solutions/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/thebhupesh/leetcode-solutions/tree/master/0167-two-sum-ii-input-array-is-sorted) |
@@ -91,6 +92,7 @@ A collection of LeetCode questions.
 | [0128-longest-consecutive-sequence](https://github.com/thebhupesh/leetcode-solutions/tree/master/0128-longest-consecutive-sequence) |
 | [0133-clone-graph](https://github.com/thebhupesh/leetcode-solutions/tree/master/0133-clone-graph) |
 | [0138-copy-list-with-random-pointer](https://github.com/thebhupesh/leetcode-solutions/tree/master/0138-copy-list-with-random-pointer) |
+| [0139-word-break](https://github.com/thebhupesh/leetcode-solutions/tree/master/0139-word-break) |
 | [0141-linked-list-cycle](https://github.com/thebhupesh/leetcode-solutions/tree/master/0141-linked-list-cycle) |
 | [0169-majority-element](https://github.com/thebhupesh/leetcode-solutions/tree/master/0169-majority-element) |
 | [0208-implement-trie-prefix-tree](https://github.com/thebhupesh/leetcode-solutions/tree/master/0208-implement-trie-prefix-tree) |
@@ -122,6 +124,7 @@ A collection of LeetCode questions.
 | [0079-word-search](https://github.com/thebhupesh/leetcode-solutions/tree/master/0079-word-search) |
 | [0115-distinct-subsequences](https://github.com/thebhupesh/leetcode-solutions/tree/master/0115-distinct-subsequences) |
 | [0125-valid-palindrome](https://github.com/thebhupesh/leetcode-solutions/tree/master/0125-valid-palindrome) |
+| [0139-word-break](https://github.com/thebhupesh/leetcode-solutions/tree/master/0139-word-break) |
 | [0208-implement-trie-prefix-tree](https://github.com/thebhupesh/leetcode-solutions/tree/master/0208-implement-trie-prefix-tree) |
 | [0242-valid-anagram](https://github.com/thebhupesh/leetcode-solutions/tree/master/0242-valid-anagram) |
 | [0344-reverse-string](https://github.com/thebhupesh/leetcode-solutions/tree/master/0344-reverse-string) |
@@ -182,6 +185,7 @@ A collection of LeetCode questions.
 | [0115-distinct-subsequences](https://github.com/thebhupesh/leetcode-solutions/tree/master/0115-distinct-subsequences) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/thebhupesh/leetcode-solutions/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/thebhupesh/leetcode-solutions/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
+| [0139-word-break](https://github.com/thebhupesh/leetcode-solutions/tree/master/0139-word-break) |
 | [0198-house-robber](https://github.com/thebhupesh/leetcode-solutions/tree/master/0198-house-robber) |
 | [0300-longest-increasing-subsequence](https://github.com/thebhupesh/leetcode-solutions/tree/master/0300-longest-increasing-subsequence) |
 | [0322-coin-change](https://github.com/thebhupesh/leetcode-solutions/tree/master/0322-coin-change) |
@@ -462,6 +466,7 @@ A collection of LeetCode questions.
 |  |
 | ------- |
 | [0014-longest-common-prefix](https://github.com/thebhupesh/leetcode-solutions/tree/master/0014-longest-common-prefix) |
+| [0139-word-break](https://github.com/thebhupesh/leetcode-solutions/tree/master/0139-word-break) |
 | [0208-implement-trie-prefix-tree](https://github.com/thebhupesh/leetcode-solutions/tree/master/0208-implement-trie-prefix-tree) |
 ## Prefix Sum
 |  |
@@ -475,6 +480,7 @@ A collection of LeetCode questions.
 |  |
 | ------- |
 | [0070-climbing-stairs](https://github.com/thebhupesh/leetcode-solutions/tree/master/0070-climbing-stairs) |
+| [0139-word-break](https://github.com/thebhupesh/leetcode-solutions/tree/master/0139-word-break) |
 | [0509-fibonacci-number](https://github.com/thebhupesh/leetcode-solutions/tree/master/0509-fibonacci-number) |
 ## Greedy
 |  |
@@ -650,4 +656,8 @@ A collection of LeetCode questions.
 |  |
 | ------- |
 | [0274-h-index](https://github.com/thebhupesh/leetcode-solutions/tree/master/0274-h-index) |
+## Brute-Force Search
+|  |
+| ------- |
+| [0139-word-break](https://github.com/thebhupesh/leetcode-solutions/tree/master/0139-word-break) |
 <!---LeetCode Topics End-->

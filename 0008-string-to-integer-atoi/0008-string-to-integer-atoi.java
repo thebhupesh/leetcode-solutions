@@ -1,42 +1,34 @@
 class Solution {
     public int myAtoi(String s) {
-        int maxRes = Integer.MAX_VALUE;
-        int minRes = Integer.MIN_VALUE;
+        long maxRes = Integer.MAX_VALUE;
+        long minRes = Integer.MIN_VALUE;
 
-        StringBuilder str = new StringBuilder();
         boolean isNegative = false;
-        boolean gotSign = false;
+        boolean gotValid = false;
+
+        long res = 0;
 
         for(char c : s.toCharArray()) {
-            if(str.length() == 0) {
-                if(c == ' ' && !gotSign) continue;
-                else if((c == '-' || c == '+') && !gotSign) {
+            if(!gotValid) {
+                if(c == ' ') continue;
+                else if(c == '-' || c == '+') {
                     isNegative = (c == '-');
-                    gotSign = true;
+                    gotValid = true;
                 }
-                else if(c-'0' >= 0 & c-'0' <= 9) str.append(c);
-                else break;
-            } else if(c-'0' >= 0 & c-'0' <= 9) str.append(c);
+                else if(c >= '0' && c <= '9') {
+                    res = (res*10) + (c-'0');
+                    gotValid = true;
+                }
+                else return 0;
+            } else if(c >= '0' && c <= '9') {
+                res = (res*10) + (c-'0');
+
+                if(isNegative && res >= maxRes+1) return (int)minRes;
+                else if(!isNegative && res >= maxRes) return (int)maxRes;
+            }
             else break;
         }
 
-        int len = str.length();
-        if(len == 0) return 0;
-
-        int zeros = 0;
-        while(zeros<len && str.charAt(zeros) == '0') zeros++;
-        if(str.length()-zeros > 10) return (isNegative) ? minRes : maxRes;
-
-        long mul = 1;
-        long res = 0;
-
-        for(int i=str.length()-1; i>=zeros; i--) {
-            res += ((str.charAt(i)-'0')*mul);
-            mul *= 10;
-        }
-
-        if(isNegative) res *= (-1);
-
-        return (res <= maxRes && res >= minRes) ? (int)res : ((isNegative) ? minRes : maxRes);
+        return (isNegative) ? (int)res*(-1) : (int)res;
     }
 }

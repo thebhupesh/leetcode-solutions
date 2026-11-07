@@ -23,8 +23,8 @@ class Solution {
             } else if(c >= '0' && c <= '9') {
                 res = (res*10) + (c-'0');
 
-                if(isNegative && res >= maxRes+1) return (int)minRes;
-                else if(!isNegative && res >= maxRes) return (int)maxRes;
+                if(isNegative && res > maxRes+1) return (int)minRes;
+                else if(!isNegative && res > maxRes) return (int)maxRes;
             }
             else break;
         }

@@ -1,15 +1,14 @@
 class Solution {
     private boolean check(int[] nums, int sum, int pos, int[][] dp) {
-        if(dp[pos][sum] != -1) return dp[pos][sum] == 1;
-        
-        int currSum = sum-nums[pos];
         int currPos = pos;
+        sum -= nums[pos];
 
-        if(currSum == 0) return true;
-        else if(currSum < 0) return false;
+        if(sum < 0) return false;
+        else if(dp[pos][sum] != -1) return dp[pos][sum] == 1;
+        else if(sum == 0) return true;
 
-        while(--currPos >= 0) {
-            if(check(nums,currSum,currPos,dp)) {
+        while(++currPos < nums.length) {
+            if(check(nums,sum,currPos,dp)) {
                 dp[pos][sum] = 1;
                 return true;
             }
@@ -27,6 +26,6 @@ class Solution {
         int[][] dp = new int[nums.length][sum+1];
         for(int i=0; i<nums.length; i++) Arrays.fill(dp[i],-1);
         
-        return check(nums,sum,nums.length-1,dp);
+        return check(nums,sum,0,dp);
     }
 }

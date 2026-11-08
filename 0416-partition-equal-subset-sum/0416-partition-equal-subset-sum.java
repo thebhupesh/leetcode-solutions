@@ -1,11 +1,10 @@
 class Solution {
     private boolean check(int[] nums, int sum, int pos, int[][] dp) {
-        if(pos == nums.length || sum < 0) return false;
+        if(sum == 0) return true;
+        else if(pos == nums.length || sum < 0) return false;
         else if(dp[pos][sum] != -1) return dp[pos][sum] == 1;
-        else if(sum == 0) return true;
 
-        if(check(nums,sum,pos+1,dp)) return true;
-        else if(check(nums,sum-nums[pos],pos+1,dp)) {
+        if(check(nums,sum,pos+1,dp) || check(nums,sum-nums[pos],pos+1,dp)) {
             dp[pos][sum] = 1;
             return true;
         }

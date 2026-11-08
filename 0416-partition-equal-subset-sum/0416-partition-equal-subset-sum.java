@@ -1,17 +1,13 @@
 class Solution {
     private boolean check(int[] nums, int sum, int pos, int[][] dp) {
-        int currPos = pos;
-        sum -= nums[pos];
-
-        if(sum < 0) return false;
+        if(pos == nums.length || sum < 0) return false;
         else if(dp[pos][sum] != -1) return dp[pos][sum] == 1;
         else if(sum == 0) return true;
 
-        while(++currPos < nums.length) {
-            if(check(nums,sum,currPos,dp)) {
-                dp[pos][sum] = 1;
-                return true;
-            }
+        if(check(nums,sum,pos+1,dp)) return true;
+        else if(check(nums,sum-nums[pos],pos+1,dp)) {
+            dp[pos][sum] = 1;
+            return true;
         }
 
         dp[pos][sum] = 0;

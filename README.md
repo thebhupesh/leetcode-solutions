@@ -166,6 +166,7 @@ A collection of LeetCode questions.
 | [0083-remove-duplicates-from-sorted-list](https://github.com/thebhupesh/leetcode-solutions/tree/master/0083-remove-duplicates-from-sorted-list) |
 | [0138-copy-list-with-random-pointer](https://github.com/thebhupesh/leetcode-solutions/tree/master/0138-copy-list-with-random-pointer) |
 | [0141-linked-list-cycle](https://github.com/thebhupesh/leetcode-solutions/tree/master/0141-linked-list-cycle) |
+| [0148-sort-list](https://github.com/thebhupesh/leetcode-solutions/tree/master/0148-sort-list) |
 | [0206-reverse-linked-list](https://github.com/thebhupesh/leetcode-solutions/tree/master/0206-reverse-linked-list) |
 | [0234-palindrome-linked-list](https://github.com/thebhupesh/leetcode-solutions/tree/master/0234-palindrome-linked-list) |
 | [0876-middle-of-the-linked-list](https://github.com/thebhupesh/leetcode-solutions/tree/master/0876-middle-of-the-linked-list) |
@@ -217,6 +218,7 @@ A collection of LeetCode questions.
 | [0088-merge-sorted-array](https://github.com/thebhupesh/leetcode-solutions/tree/master/0088-merge-sorted-array) |
 | [0125-valid-palindrome](https://github.com/thebhupesh/leetcode-solutions/tree/master/0125-valid-palindrome) |
 | [0141-linked-list-cycle](https://github.com/thebhupesh/leetcode-solutions/tree/master/0141-linked-list-cycle) |
+| [0148-sort-list](https://github.com/thebhupesh/leetcode-solutions/tree/master/0148-sort-list) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/thebhupesh/leetcode-solutions/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0234-palindrome-linked-list](https://github.com/thebhupesh/leetcode-solutions/tree/master/0234-palindrome-linked-list) |
 | [0283-move-zeroes](https://github.com/thebhupesh/leetcode-solutions/tree/master/0283-move-zeroes) |
@@ -331,6 +333,7 @@ A collection of LeetCode questions.
 | [0056-merge-intervals](https://github.com/thebhupesh/leetcode-solutions/tree/master/0056-merge-intervals) |
 | [0075-sort-colors](https://github.com/thebhupesh/leetcode-solutions/tree/master/0075-sort-colors) |
 | [0088-merge-sorted-array](https://github.com/thebhupesh/leetcode-solutions/tree/master/0088-merge-sorted-array) |
+| [0148-sort-list](https://github.com/thebhupesh/leetcode-solutions/tree/master/0148-sort-list) |
 | [0169-majority-element](https://github.com/thebhupesh/leetcode-solutions/tree/master/0169-majority-element) |
 | [0215-kth-largest-element-in-an-array](https://github.com/thebhupesh/leetcode-solutions/tree/master/0215-kth-largest-element-in-an-array) |
 | [0217-contains-duplicate](https://github.com/thebhupesh/leetcode-solutions/tree/master/0217-contains-duplicate) |
@@ -375,6 +378,7 @@ A collection of LeetCode questions.
 | ------- |
 | [0023-merge-k-sorted-lists](https://github.com/thebhupesh/leetcode-solutions/tree/master/0023-merge-k-sorted-lists) |
 | [0053-maximum-subarray](https://github.com/thebhupesh/leetcode-solutions/tree/master/0053-maximum-subarray) |
+| [0148-sort-list](https://github.com/thebhupesh/leetcode-solutions/tree/master/0148-sort-list) |
 | [0169-majority-element](https://github.com/thebhupesh/leetcode-solutions/tree/master/0169-majority-element) |
 | [0191-number-of-1-bits](https://github.com/thebhupesh/leetcode-solutions/tree/master/0191-number-of-1-bits) |
 | [0215-kth-largest-element-in-an-array](https://github.com/thebhupesh/leetcode-solutions/tree/master/0215-kth-largest-element-in-an-array) |
@@ -614,6 +618,7 @@ A collection of LeetCode questions.
 |  |
 | ------- |
 | [0023-merge-k-sorted-lists](https://github.com/thebhupesh/leetcode-solutions/tree/master/0023-merge-k-sorted-lists) |
+| [0148-sort-list](https://github.com/thebhupesh/leetcode-solutions/tree/master/0148-sort-list) |
 ## Tournament Sort
 |  |
 | ------- |

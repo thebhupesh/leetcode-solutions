@@ -12,35 +12,31 @@ class Solution {
     public ListNode sortList(ListNode head) {
         if(head == null || head.next == null) return head;
 
-        ListNode ptr = head;
-        ListNode fastPtr = head.next;
+        ListNode ptr1 = head;
+        ListNode ptr2 = head.next;
 
-        while(fastPtr != null && fastPtr.next != null) {
-            fastPtr = fastPtr.next.next;
-            ptr = ptr.next;
+        while(ptr2 != null && ptr2.next != null) {
+            ptr2 = ptr2.next.next;
+            ptr1 = ptr1.next;
         }
 
-        ListNode res1 = sortList(ptr.next);
-        ptr.next = null;
-        ListNode res2 = sortList(head);
+        ptr2 = ptr1.next;
+        ptr1.next = null;
+        ptr1 = sortList(ptr2);
+        ptr2 = sortList(head);
+
         ListNode res = null;
         ListNode prev = null;
 
-        while(res1 != null || res2 != null) {
+        while(ptr1 != null && ptr2 != null) {
             ListNode curr = null;
             
-            if(res2 == null) {
-                prev.next = res1;
-                break;
-            } else if(res1 == null) {
-                prev.next = res2;
-                break;
-            } else if(res1.val <= res2.val) {
-                curr = res1;
-                res1 = res1.next;
+            if(ptr1.val <= ptr2.val) {
+                curr = ptr1;
+                ptr1 = ptr1.next;
             } else {
-                curr = res2;
-                res2 = res2.next;
+                curr = ptr2;
+                ptr2 = ptr2.next;
             }
 
             if(res == null) {
@@ -52,6 +48,8 @@ class Solution {
                 prev = curr;
             }
         }
+
+        prev.next = (ptr1 == null) ? ptr2 : ptr1;
 
         return res;
     }

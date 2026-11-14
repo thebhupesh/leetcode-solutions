@@ -10,25 +10,57 @@
  */
 class Solution {
     public ListNode sortList(ListNode head) {
-        if(head == null) return head;
-        
-        PriorityQueue<ListNode> q = new PriorityQueue<>((a,b) -> Integer.compare(a.val,b.val));
+        if(head == null || head.next == null) return head;
 
-        while(head != null) {
-            q.offer(head);
-            head = head.next;
+        ListNode ptr = head;
+        ListNode fastPtr = head.next;
+
+        while(fastPtr != null && fastPtr.next != null) {
+            fastPtr = fastPtr.next.next;
+            ptr = ptr.next;
         }
 
-        ListNode res = q.poll();
-        ListNode curr = res;
+        ListNode res1 = sortList(ptr.next);
+        ptr.next = null;
+        ListNode res2 = sortList(head);
+        ListNode res = null;
+        ListNode prev = null;
 
-        while(!q.isEmpty()) {
-            ListNode temp = q.poll();
-            curr.next = temp;
-            curr = temp;
+        while(res1 != null || res2 != null) {
+            if(res2 == null) {
+                prev.next = res1;
+                prev = res1;
+                
+                res1 = res1.next;
+            } else if(res1 == null) {
+                prev.next = res2;
+                prev = res2;
+
+                res2 = res2.next;
+            } else if(res1.val <= res2.val) {
+                if(res == null) {
+                    res = res1;
+                    prev = res1;
+                }
+                else {
+                    prev.next = res1;
+                    prev = res1;
+                }
+
+                res1 = res1.next;
+            } else {
+                if(res == null) {
+                    res = res2;
+                    prev = res2;
+                }
+                else {
+                    prev.next = res2;
+                    prev = res2;
+                }
+
+                res2 = res2.next;
+            }
         }
-
-        curr.next = null;
 
         return res;
     }

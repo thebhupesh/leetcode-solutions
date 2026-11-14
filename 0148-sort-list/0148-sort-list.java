@@ -27,38 +27,29 @@ class Solution {
         ListNode prev = null;
 
         while(res1 != null || res2 != null) {
+            ListNode curr = null;
+            
             if(res2 == null) {
                 prev.next = res1;
-                prev = res1;
-                
-                res1 = res1.next;
+                break;
             } else if(res1 == null) {
                 prev.next = res2;
-                prev = res2;
-
-                res2 = res2.next;
+                break;
             } else if(res1.val <= res2.val) {
-                if(res == null) {
-                    res = res1;
-                    prev = res1;
-                }
-                else {
-                    prev.next = res1;
-                    prev = res1;
-                }
-
+                curr = res1;
                 res1 = res1.next;
             } else {
-                if(res == null) {
-                    res = res2;
-                    prev = res2;
-                }
-                else {
-                    prev.next = res2;
-                    prev = res2;
-                }
-
+                curr = res2;
                 res2 = res2.next;
+            }
+
+            if(res == null) {
+                res = curr;
+                prev = curr;
+            }
+            else {
+                prev.next = curr;
+                prev = curr;
             }
         }
 

@@ -27,28 +27,22 @@ class WordDictionary {
     }
 
     private boolean wildcardHelper(Node curr, String word, int pos) {
+        if(pos == word.length()) return curr.isEnd;
+
         char c = word.charAt(pos);
 
         if(c == '.') {
-            for(int i=0; i<26; i++) {
-                Node temp = curr.children[i];
-
-                if(temp != null) {
-                    if(pos+1 == word.length()) {
-                        if(temp.isEnd) return true;
-                    }
-                    else if(wildcardHelper(temp,word,pos+1)) return true;
-                }
+            for(Node n : curr.children) {
+                if(n != null && wildcardHelper(n,word,pos+1)) return true;
             }
 
             return false;
         }
 
         curr = curr.children[c-'a'];
-        
         if(curr == null) return false;
         
-        return (pos+1 == word.length()) ? curr.isEnd : wildcardHelper(curr,word,pos+1);
+        return wildcardHelper(curr,word,pos+1);
     }
     
     public boolean search(String word) {

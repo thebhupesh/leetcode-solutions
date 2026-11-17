@@ -54,6 +54,7 @@ A collection of LeetCode questions.
 | [0238-product-of-array-except-self](https://github.com/thebhupesh/leetcode-solutions/tree/master/0238-product-of-array-except-self) |
 | [0274-h-index](https://github.com/thebhupesh/leetcode-solutions/tree/master/0274-h-index) |
 | [0283-move-zeroes](https://github.com/thebhupesh/leetcode-solutions/tree/master/0283-move-zeroes) |
+| [0287-find-the-duplicate-number](https://github.com/thebhupesh/leetcode-solutions/tree/master/0287-find-the-duplicate-number) |
 | [0300-longest-increasing-subsequence](https://github.com/thebhupesh/leetcode-solutions/tree/master/0300-longest-increasing-subsequence) |
 | [0322-coin-change](https://github.com/thebhupesh/leetcode-solutions/tree/master/0322-coin-change) |
 | [0347-top-k-frequent-elements](https://github.com/thebhupesh/leetcode-solutions/tree/master/0347-top-k-frequent-elements) |
@@ -226,6 +227,7 @@ A collection of LeetCode questions.
 | [0189-rotate-array](https://github.com/thebhupesh/leetcode-solutions/tree/master/0189-rotate-array) |
 | [0234-palindrome-linked-list](https://github.com/thebhupesh/leetcode-solutions/tree/master/0234-palindrome-linked-list) |
 | [0283-move-zeroes](https://github.com/thebhupesh/leetcode-solutions/tree/master/0283-move-zeroes) |
+| [0287-find-the-duplicate-number](https://github.com/thebhupesh/leetcode-solutions/tree/master/0287-find-the-duplicate-number) |
 | [0344-reverse-string](https://github.com/thebhupesh/leetcode-solutions/tree/master/0344-reverse-string) |
 | [0392-is-subsequence](https://github.com/thebhupesh/leetcode-solutions/tree/master/0392-is-subsequence) |
 | [0567-permutation-in-string](https://github.com/thebhupesh/leetcode-solutions/tree/master/0567-permutation-in-string) |
@@ -357,6 +359,7 @@ A collection of LeetCode questions.
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/thebhupesh/leetcode-solutions/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0209-minimum-size-subarray-sum](https://github.com/thebhupesh/leetcode-solutions/tree/master/0209-minimum-size-subarray-sum) |
 | [0278-first-bad-version](https://github.com/thebhupesh/leetcode-solutions/tree/master/0278-first-bad-version) |
+| [0287-find-the-duplicate-number](https://github.com/thebhupesh/leetcode-solutions/tree/master/0287-find-the-duplicate-number) |
 | [0300-longest-increasing-subsequence](https://github.com/thebhupesh/leetcode-solutions/tree/master/0300-longest-increasing-subsequence) |
 | [0367-valid-perfect-square](https://github.com/thebhupesh/leetcode-solutions/tree/master/0367-valid-perfect-square) |
 | [0704-binary-search](https://github.com/thebhupesh/leetcode-solutions/tree/master/0704-binary-search) |
@@ -541,6 +544,7 @@ A collection of LeetCode questions.
 | [0078-subsets](https://github.com/thebhupesh/leetcode-solutions/tree/master/0078-subsets) |
 | [0136-single-number](https://github.com/thebhupesh/leetcode-solutions/tree/master/0136-single-number) |
 | [0191-number-of-1-bits](https://github.com/thebhupesh/leetcode-solutions/tree/master/0191-number-of-1-bits) |
+| [0287-find-the-duplicate-number](https://github.com/thebhupesh/leetcode-solutions/tree/master/0287-find-the-duplicate-number) |
 | [0338-counting-bits](https://github.com/thebhupesh/leetcode-solutions/tree/master/0338-counting-bits) |
 | [3568-minimum-moves-to-clean-the-classroom](https://github.com/thebhupesh/leetcode-solutions/tree/master/3568-minimum-moves-to-clean-the-classroom) |
 ## Simulation
@@ -583,6 +587,7 @@ A collection of LeetCode questions.
 |  |
 | ------- |
 | [0141-linked-list-cycle](https://github.com/thebhupesh/leetcode-solutions/tree/master/0141-linked-list-cycle) |
+| [0287-find-the-duplicate-number](https://github.com/thebhupesh/leetcode-solutions/tree/master/0287-find-the-duplicate-number) |
 ## Boyer–Moore Majority Vote Algorithm
 |  |
 | ------- |
@@ -691,4 +696,8 @@ A collection of LeetCode questions.
 |  |
 | ------- |
 | [0416-partition-equal-subset-sum](https://github.com/thebhupesh/leetcode-solutions/tree/master/0416-partition-equal-subset-sum) |
+## Pigeonhole Principle
+|  |
+| ------- |
+| [0287-find-the-duplicate-number](https://github.com/thebhupesh/leetcode-solutions/tree/master/0287-find-the-duplicate-number) |
 <!---LeetCode Topics End-->

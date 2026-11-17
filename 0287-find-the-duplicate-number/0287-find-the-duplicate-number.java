@@ -1,13 +1,20 @@
 class Solution {
     public int findDuplicate(int[] nums) {
-        int[] counts = new int[100000];
+        int ptr1 = nums[0];
+        int ptr2 = nums[0];
 
-        for(int num : nums) {
-            if(counts[num-1] == 1) return num;
+        do {
+            ptr1 = nums[ptr1];
+            ptr2 = nums[nums[ptr2]];
+        } while(ptr1 != ptr2);
 
-            counts[num-1]++;
+        ptr1 = nums[0];
+
+        while(ptr1 != ptr2) {
+            ptr1 = nums[ptr1];
+            ptr2 = nums[ptr2];
         }
 
-        return -1;
+        return ptr1;
     }
 }

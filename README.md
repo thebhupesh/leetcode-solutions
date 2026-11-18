@@ -106,6 +106,7 @@ A collection of LeetCode questions.
 | [0383-ransom-note](https://github.com/thebhupesh/leetcode-solutions/tree/master/0383-ransom-note) |
 | [0409-longest-palindrome](https://github.com/thebhupesh/leetcode-solutions/tree/master/0409-longest-palindrome) |
 | [0424-longest-repeating-character-replacement](https://github.com/thebhupesh/leetcode-solutions/tree/master/0424-longest-repeating-character-replacement) |
+| [0438-find-all-anagrams-in-a-string](https://github.com/thebhupesh/leetcode-solutions/tree/master/0438-find-all-anagrams-in-a-string) |
 | [0567-permutation-in-string](https://github.com/thebhupesh/leetcode-solutions/tree/master/0567-permutation-in-string) |
 | [0771-jewels-and-stones](https://github.com/thebhupesh/leetcode-solutions/tree/master/0771-jewels-and-stones) |
 | [0981-time-based-key-value-store](https://github.com/thebhupesh/leetcode-solutions/tree/master/0981-time-based-key-value-store) |
@@ -138,6 +139,7 @@ A collection of LeetCode questions.
 | [0392-is-subsequence](https://github.com/thebhupesh/leetcode-solutions/tree/master/0392-is-subsequence) |
 | [0409-longest-palindrome](https://github.com/thebhupesh/leetcode-solutions/tree/master/0409-longest-palindrome) |
 | [0424-longest-repeating-character-replacement](https://github.com/thebhupesh/leetcode-solutions/tree/master/0424-longest-repeating-character-replacement) |
+| [0438-find-all-anagrams-in-a-string](https://github.com/thebhupesh/leetcode-solutions/tree/master/0438-find-all-anagrams-in-a-string) |
 | [0504-base-7](https://github.com/thebhupesh/leetcode-solutions/tree/master/0504-base-7) |
 | [0567-permutation-in-string](https://github.com/thebhupesh/leetcode-solutions/tree/master/0567-permutation-in-string) |
 | [0771-jewels-and-stones](https://github.com/thebhupesh/leetcode-solutions/tree/master/0771-jewels-and-stones) |
@@ -472,6 +474,7 @@ A collection of LeetCode questions.
 | [0076-minimum-window-substring](https://github.com/thebhupesh/leetcode-solutions/tree/master/0076-minimum-window-substring) |
 | [0209-minimum-size-subarray-sum](https://github.com/thebhupesh/leetcode-solutions/tree/master/0209-minimum-size-subarray-sum) |
 | [0424-longest-repeating-character-replacement](https://github.com/thebhupesh/leetcode-solutions/tree/master/0424-longest-repeating-character-replacement) |
+| [0438-find-all-anagrams-in-a-string](https://github.com/thebhupesh/leetcode-solutions/tree/master/0438-find-all-anagrams-in-a-string) |
 | [0567-permutation-in-string](https://github.com/thebhupesh/leetcode-solutions/tree/master/0567-permutation-in-string) |
 | [0643-maximum-average-subarray-i](https://github.com/thebhupesh/leetcode-solutions/tree/master/0643-maximum-average-subarray-i) |
 | [1004-max-consecutive-ones-iii](https://github.com/thebhupesh/leetcode-solutions/tree/master/1004-max-consecutive-ones-iii) |

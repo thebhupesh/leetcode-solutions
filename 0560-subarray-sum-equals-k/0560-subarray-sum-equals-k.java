@@ -4,10 +4,9 @@ class Solution {
         int res = 0;
 
         for(int i=0; i<len; i++) {
-            int prev = nums[i];
-            if(prev == k) res++;
+            int prev = 0;
 
-            for(int j=i+1; j<len; j++) {
+            for(int j=i; j<len; j++) {
                 prev += nums[j];
                 if(prev == k) res++;
             }

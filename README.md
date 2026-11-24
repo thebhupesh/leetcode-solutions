@@ -60,6 +60,7 @@ A collection of LeetCode questions.
 | [0347-top-k-frequent-elements](https://github.com/thebhupesh/leetcode-solutions/tree/master/0347-top-k-frequent-elements) |
 | [0416-partition-equal-subset-sum](https://github.com/thebhupesh/leetcode-solutions/tree/master/0416-partition-equal-subset-sum) |
 | [0417-pacific-atlantic-water-flow](https://github.com/thebhupesh/leetcode-solutions/tree/master/0417-pacific-atlantic-water-flow) |
+| [0528-random-pick-with-weight](https://github.com/thebhupesh/leetcode-solutions/tree/master/0528-random-pick-with-weight) |
 | [0542-01-matrix](https://github.com/thebhupesh/leetcode-solutions/tree/master/0542-01-matrix) |
 | [0560-subarray-sum-equals-k](https://github.com/thebhupesh/leetcode-solutions/tree/master/0560-subarray-sum-equals-k) |
 | [0643-maximum-average-subarray-i](https://github.com/thebhupesh/leetcode-solutions/tree/master/0643-maximum-average-subarray-i) |
@@ -368,6 +369,7 @@ A collection of LeetCode questions.
 | [0287-find-the-duplicate-number](https://github.com/thebhupesh/leetcode-solutions/tree/master/0287-find-the-duplicate-number) |
 | [0300-longest-increasing-subsequence](https://github.com/thebhupesh/leetcode-solutions/tree/master/0300-longest-increasing-subsequence) |
 | [0367-valid-perfect-square](https://github.com/thebhupesh/leetcode-solutions/tree/master/0367-valid-perfect-square) |
+| [0528-random-pick-with-weight](https://github.com/thebhupesh/leetcode-solutions/tree/master/0528-random-pick-with-weight) |
 | [0704-binary-search](https://github.com/thebhupesh/leetcode-solutions/tree/master/0704-binary-search) |
 | [0875-koko-eating-bananas](https://github.com/thebhupesh/leetcode-solutions/tree/master/0875-koko-eating-bananas) |
 | [0981-time-based-key-value-store](https://github.com/thebhupesh/leetcode-solutions/tree/master/0981-time-based-key-value-store) |
@@ -419,6 +421,7 @@ A collection of LeetCode questions.
 | [0367-valid-perfect-square](https://github.com/thebhupesh/leetcode-solutions/tree/master/0367-valid-perfect-square) |
 | [0504-base-7](https://github.com/thebhupesh/leetcode-solutions/tree/master/0504-base-7) |
 | [0509-fibonacci-number](https://github.com/thebhupesh/leetcode-solutions/tree/master/0509-fibonacci-number) |
+| [0528-random-pick-with-weight](https://github.com/thebhupesh/leetcode-solutions/tree/master/0528-random-pick-with-weight) |
 | [0836-rectangle-overlap](https://github.com/thebhupesh/leetcode-solutions/tree/master/0836-rectangle-overlap) |
 | [0973-k-closest-points-to-origin](https://github.com/thebhupesh/leetcode-solutions/tree/master/0973-k-closest-points-to-origin) |
 | [1401-circle-and-rectangle-overlapping](https://github.com/thebhupesh/leetcode-solutions/tree/master/1401-circle-and-rectangle-overlapping) |
@@ -509,6 +512,7 @@ A collection of LeetCode questions.
 | ------- |
 | [0209-minimum-size-subarray-sum](https://github.com/thebhupesh/leetcode-solutions/tree/master/0209-minimum-size-subarray-sum) |
 | [0238-product-of-array-except-self](https://github.com/thebhupesh/leetcode-solutions/tree/master/0238-product-of-array-except-self) |
+| [0528-random-pick-with-weight](https://github.com/thebhupesh/leetcode-solutions/tree/master/0528-random-pick-with-weight) |
 | [0560-subarray-sum-equals-k](https://github.com/thebhupesh/leetcode-solutions/tree/master/0560-subarray-sum-equals-k) |
 | [1004-max-consecutive-ones-iii](https://github.com/thebhupesh/leetcode-solutions/tree/master/1004-max-consecutive-ones-iii) |
 | [3903-smallest-stable-index-i](https://github.com/thebhupesh/leetcode-solutions/tree/master/3903-smallest-stable-index-i) |
@@ -709,4 +713,8 @@ A collection of LeetCode questions.
 |  |
 | ------- |
 | [0287-find-the-duplicate-number](https://github.com/thebhupesh/leetcode-solutions/tree/master/0287-find-the-duplicate-number) |
+## Randomized
+|  |
+| ------- |
+| [0528-random-pick-with-weight](https://github.com/thebhupesh/leetcode-solutions/tree/master/0528-random-pick-with-weight) |
 <!---LeetCode Topics End-->

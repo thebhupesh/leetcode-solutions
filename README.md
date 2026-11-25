@@ -64,6 +64,7 @@ A collection of LeetCode questions.
 | [0542-01-matrix](https://github.com/thebhupesh/leetcode-solutions/tree/master/0542-01-matrix) |
 | [0560-subarray-sum-equals-k](https://github.com/thebhupesh/leetcode-solutions/tree/master/0560-subarray-sum-equals-k) |
 | [0643-maximum-average-subarray-i](https://github.com/thebhupesh/leetcode-solutions/tree/master/0643-maximum-average-subarray-i) |
+| [0658-find-k-closest-elements](https://github.com/thebhupesh/leetcode-solutions/tree/master/0658-find-k-closest-elements) |
 | [0682-baseball-game](https://github.com/thebhupesh/leetcode-solutions/tree/master/0682-baseball-game) |
 | [0695-max-area-of-island](https://github.com/thebhupesh/leetcode-solutions/tree/master/0695-max-area-of-island) |
 | [0704-binary-search](https://github.com/thebhupesh/leetcode-solutions/tree/master/0704-binary-search) |
@@ -240,6 +241,7 @@ A collection of LeetCode questions.
 | [0344-reverse-string](https://github.com/thebhupesh/leetcode-solutions/tree/master/0344-reverse-string) |
 | [0392-is-subsequence](https://github.com/thebhupesh/leetcode-solutions/tree/master/0392-is-subsequence) |
 | [0567-permutation-in-string](https://github.com/thebhupesh/leetcode-solutions/tree/master/0567-permutation-in-string) |
+| [0658-find-k-closest-elements](https://github.com/thebhupesh/leetcode-solutions/tree/master/0658-find-k-closest-elements) |
 | [0844-backspace-string-compare](https://github.com/thebhupesh/leetcode-solutions/tree/master/0844-backspace-string-compare) |
 | [0876-middle-of-the-linked-list](https://github.com/thebhupesh/leetcode-solutions/tree/master/0876-middle-of-the-linked-list) |
 | [0977-squares-of-a-sorted-array](https://github.com/thebhupesh/leetcode-solutions/tree/master/0977-squares-of-a-sorted-array) |
@@ -356,6 +358,7 @@ A collection of LeetCode questions.
 | [0242-valid-anagram](https://github.com/thebhupesh/leetcode-solutions/tree/master/0242-valid-anagram) |
 | [0274-h-index](https://github.com/thebhupesh/leetcode-solutions/tree/master/0274-h-index) |
 | [0347-top-k-frequent-elements](https://github.com/thebhupesh/leetcode-solutions/tree/master/0347-top-k-frequent-elements) |
+| [0658-find-k-closest-elements](https://github.com/thebhupesh/leetcode-solutions/tree/master/0658-find-k-closest-elements) |
 | [0973-k-closest-points-to-origin](https://github.com/thebhupesh/leetcode-solutions/tree/master/0973-k-closest-points-to-origin) |
 | [0977-squares-of-a-sorted-array](https://github.com/thebhupesh/leetcode-solutions/tree/master/0977-squares-of-a-sorted-array) |
 ## Binary Search
@@ -372,6 +375,7 @@ A collection of LeetCode questions.
 | [0300-longest-increasing-subsequence](https://github.com/thebhupesh/leetcode-solutions/tree/master/0300-longest-increasing-subsequence) |
 | [0367-valid-perfect-square](https://github.com/thebhupesh/leetcode-solutions/tree/master/0367-valid-perfect-square) |
 | [0528-random-pick-with-weight](https://github.com/thebhupesh/leetcode-solutions/tree/master/0528-random-pick-with-weight) |
+| [0658-find-k-closest-elements](https://github.com/thebhupesh/leetcode-solutions/tree/master/0658-find-k-closest-elements) |
 | [0704-binary-search](https://github.com/thebhupesh/leetcode-solutions/tree/master/0704-binary-search) |
 | [0875-koko-eating-bananas](https://github.com/thebhupesh/leetcode-solutions/tree/master/0875-koko-eating-bananas) |
 | [0981-time-based-key-value-store](https://github.com/thebhupesh/leetcode-solutions/tree/master/0981-time-based-key-value-store) |
@@ -445,6 +449,7 @@ A collection of LeetCode questions.
 | [0023-merge-k-sorted-lists](https://github.com/thebhupesh/leetcode-solutions/tree/master/0023-merge-k-sorted-lists) |
 | [0215-kth-largest-element-in-an-array](https://github.com/thebhupesh/leetcode-solutions/tree/master/0215-kth-largest-element-in-an-array) |
 | [0347-top-k-frequent-elements](https://github.com/thebhupesh/leetcode-solutions/tree/master/0347-top-k-frequent-elements) |
+| [0658-find-k-closest-elements](https://github.com/thebhupesh/leetcode-solutions/tree/master/0658-find-k-closest-elements) |
 | [0743-network-delay-time](https://github.com/thebhupesh/leetcode-solutions/tree/master/0743-network-delay-time) |
 | [0973-k-closest-points-to-origin](https://github.com/thebhupesh/leetcode-solutions/tree/master/0973-k-closest-points-to-origin) |
 | [1046-last-stone-weight](https://github.com/thebhupesh/leetcode-solutions/tree/master/1046-last-stone-weight) |
@@ -487,6 +492,7 @@ A collection of LeetCode questions.
 | [0438-find-all-anagrams-in-a-string](https://github.com/thebhupesh/leetcode-solutions/tree/master/0438-find-all-anagrams-in-a-string) |
 | [0567-permutation-in-string](https://github.com/thebhupesh/leetcode-solutions/tree/master/0567-permutation-in-string) |
 | [0643-maximum-average-subarray-i](https://github.com/thebhupesh/leetcode-solutions/tree/master/0643-maximum-average-subarray-i) |
+| [0658-find-k-closest-elements](https://github.com/thebhupesh/leetcode-solutions/tree/master/0658-find-k-closest-elements) |
 | [1004-max-consecutive-ones-iii](https://github.com/thebhupesh/leetcode-solutions/tree/master/1004-max-consecutive-ones-iii) |
 ## Graph Theory
 |  |
